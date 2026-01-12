@@ -1,0 +1,249 @@
+\chapter{Manuelle Überprüfung Startseite}
+
+\begin{xltabular}{\linewidth}{p{2.5cm} p{2.5cm} p{4.5cm} X}
+    % --- Definition Kopfzeile (Erste Seite) ---
+    \caption{Manuelle Testergebnisse Startseite} \label{tab:testergebnisse-startseite} \\
+    \toprule
+    \textbf{Prüfschritt} & \textbf{Bewertung} & \textbf{Begründung / \newline Verbesserung} & \textbf{Weitere Notizen} \\
+    \midrule
+    \endfirsthead
+
+    % % --- Definition Kopfzeile (Folgeseiten) ---
+    % \caption[]{Testergebnisse Startseite (Fortsetzung)} \\
+    % \toprule
+    % \textbf{Prüfschritt} & \textbf{Bewertung} & \textbf{Begründung / \newline Verbesserung} & \textbf{Weitere Notizen} \\
+    % \midrule
+    % \endhead
+    
+    % --- Fußzeilen ---
+    \midrule
+    \multicolumn{4}{r}{\textit{Weiter auf der nächsten Seite...}} \\
+    \endfoot
+
+    \bottomrule
+    \endlastfoot
+
+    % --- Inhalt (Sortiert) ---
+    
+    % 1. Eintrag (war vorher unten)
+    9.1.1.1a & 
+    Teilweise erfüllt & 
+    Icon Fonts haben meistens einen zugehörigen Text der die Funktion des Bedienelements beschreibt. 
+In der Suche für den Abbrechen Knopf wurde das vergessen, es gibt auch kein Aria-Label oder ähnliches.
+ & 
+    Es wurde nicht immer das Icon selbst als aria-hidden=true markiert, wäre besser. Ist teilweise nicht möglich da Inhalt mit CSS Pseudoklasse ::after/before eingefügt wurde. \\ 
+    \midrule
+
+
+    % 2. Eintrag (war vorher oben)
+    9.1.1.1b & 
+    Nicht erfüllt & 
+    Alternativtexte sind sporadisch, einige Bilder besitzen einen, viele nicht . Z.b. Hero-Image besitzt keinen alt-Text. 
+Es sollte für jedes Bild entschieden werden, ob es informativ ist oder nicht und entsprechenden alt-Text hinzufügen. alt="`"' wenn nicht informativ
+ & 
+    \\ 
+     \midrule
+
+    % 2. Eintrag (war vorher oben)
+    9.1.1.1c & 
+    Vollständig erfüllt & 
+    Siehe 9.1.1.1b - Es muss redaktionell entschieden werden, welche Fotografien als rein dekorativ eingestuft werden.  & 
+    \\ \midrule
+    
+    9.1.1.1d & 
+    Nicht anwendbar & 
+      & 
+    \\ \midrule
+    
+    9.1.3.1a & 
+    Teilweise erfüllt & 
+    Die Überschrift der Suche "`Unterkunft für deinen Nordseeurlaub finden"' ist eine H4 und überspringt somit Überschriften. Müsste oben auf der Seite H3 sein (oder H2, wenn alleinstehend). Weiter unten taucht die Suche erneut auf, auch hier H3 (oder H2)  & 
+    \\ \midrule
+
+    9.1.3.1b & 
+    Nicht erfüllt & 
+    Listen Markup wird genutzt für viele Objekte die keine Liste sind. z.B. einzelne Bilder wie "`Veranstaltungen auf Föhr"' oder dem Hero.  & 
+    \\ \midrule
+
+    9.1.3.1c & 
+    Nicht anwendbar & 
+     & 
+    \\ \midrule
+
+     9.1.3.1d & 
+    Teilweise erfüllt & 
+    Ein main-Element ist innerhalb eines weiteren main-Elements verschachtelt. Pro Seite darf allerdings nur ein main-Element existieren.
+Das innere main-Element muss entfernt oder durch section, div oder article ersetzt werden.
+ & 
+    \\ \midrule
+
+    9.1.3.1e & 
+    Nicht anwendbar & 
+    
+ & 
+    \\ \midrule
+
+    9.1.3.1f & 
+    Nicht anwendbar & 
+    
+ & 
+    \\ \midrule
+
+    9.1.3.1g & 
+    Nicht anwendbar & 
+    
+ & 
+    \\ \midrule
+
+    9.1.3.1h & 
+    Nicht erfüllt & 
+    Label sind nicht passendem Input verknüpft. (Anreise/Abreis, Anzahl Personen)
+ & 
+    \\ \midrule
+
+    9.1.3.2 & 
+    Vollständig erfüllt & 
+     & 
+    \\ \midrule
+
+    9.1.3.3 & 
+    Vollständig erfüllt & 
+     & 
+    \\ \midrule
+
+    9.1.3.4 & 
+    Vollständig erfüllt & 
+     & 
+    \\ \midrule
+
+    9.1.4.1 & 
+    Vollständig erfüllt & 
+     & 
+    \\ \midrule
+
+    9.1.4.2 & 
+    Nicht anwendbar & 
+     & 
+    \\ \midrule
+
+    9.1.4.3 & 
+    Teilweise erfüllt & 
+    Zu geringer Kontrast, teilweise sogar nur 1,96:1, betrifft vor allem Text, der direkt auf Bildern platziert ist, insbesondere Copyright-Angaben, sowie spezifische Farbkombinationen im Layout, z. B. die hellgrüne Textfarbe auf beigefarbenem Hintergrund & 
+    \\ \midrule
+
+    9.1.4.4 & 
+    Vollständig erfüllt & 
+     & 
+    \\ \midrule
+
+    9.1.4.5 & 
+    Vollständig erfüllt & 
+     & 
+    \\ \midrule
+
+    9.1.4.10 & 
+    Vollständig erfüllt & 
+     & 
+    \\ \midrule
+
+    9.1.4.11 & 
+    Vollständig erfüllt & 
+     & 
+    \\ \midrule
+
+    9.1.4.12 & 
+    Vollständig erfüllt & 
+     & 
+    \\ \midrule
+
+    9.1.4.13 & 
+    Nicht erfüllt & 
+    Tooltip bei "`merken"' verschwindet nicht bei "`esc"' Tastendruck & 
+    \\ \midrule
+
+    9.2.1.1 & 
+    Vollständig erfüllt & 
+     & 
+    \\ \midrule
+
+     9.2.1.2 & 
+    Vollständig erfüllt & 
+     & 
+    \\ \midrule
+    
+    9.2.1.4 & 
+    Vollständig erfüllt & 
+     & 
+    \\ \midrule
+
+     9.2.3.1 & 
+    Vollständig erfüllt & 
+     & 
+    \\ \midrule
+
+     9.2.4.1 & 
+    Teilweise erfüllt & 
+    Überschriftenstruktur wurde bereits besprochen, ein Sprunglink zum Inhalt existiert nicht und Landmarks wie main wurden teilweise doppelt verwendet. Die drei Sachen müssen glattgezogen werden & 
+    \\ \midrule
+
+    9.2.4.2 & 
+    Vollständig erfüllt & 
+     & 
+    \\ \midrule
+
+    9.2.4.3 & 
+    Teilweise erfüllt & 
+    Tabrichtung im Header und Kontakt/Newsletter vertauscht. Wegen Flex="`row-reverse"' & 
+    \\ \midrule
+
+    9.2.4.4 & 
+    Teilweise erfüllt & 
+    Link-Text ist mit "`Will ich sehen"' nicht aussagekräftig, besser wäre hier "`Anreise, Prospekte, etc.w"' & 
+    \\ \midrule
+
+    9.2.4.5 & 
+    Vollständig erfüllt & 
+     & 
+    \\ \midrule
+
+    9.2.4.6 & 
+    Vollständig erfüllt & 
+     & 
+    \\ \midrule
+
+    9.2.4.7 & 
+    Teilweise erfüllt & 
+    Der Standard-Fokusindikator ist aufgrund der bereits vorhandenen leichten Rahmen (Kästen) der Buttons visuell nur schwer vom normalen Zustand des Elements zu unterscheide. Besser wäre die Outline Funktion mit Offset zu nutzen. 
+
+Teilweise werden ausgeblendete Inhalte fokussiert. & 
+Alle Buttons mit leichtem Rahmen
+    \\ \midrule
+
+    9.3.1.1 & 
+    Vollständig erfüllt & 
+     & 
+    \\ \midrule
+
+    9.3.1.2 & 
+    Nicht erfüllt & 
+    Wörter und Textpassagen in anderen Sprachen wurden nicht markiert, z.B. "`På dansk"', "`Newsletter"' oder "`Online-Shop"' & 
+    \\ \midrule
+
+    9.4.1.1 & 
+    Teilweise erfüllt & 
+    Es gibt verschachtelte main-Elemente und unzulässige Elementverschachtelung (p innerhalb span). 
+Skripts wurden mit unzulässigen Modulen importiert und Verbotene Codepunkt wie U+009f wurden genutzt. 
+ & 
+    \\ \midrule
+
+    9.4.1.2 & 
+    Vollständig erfüllt & 
+     & 
+    \\ \midrule
+
+    9.4.1.3 & 
+    Nicht Anwendbar für Newsletter, da die Seite nach Anmeldung neu geladen wird & 
+     & 
+    \\
+\end{xltabular}
+

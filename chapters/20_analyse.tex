@@ -1,0 +1,104 @@
+\chapter{Analyse}
+Text blablabla
+
+\section{Marktanalyse/Benchmarking}
+Text blablabla
+
+\section{Stakeholderanalyse}
+Die Stakeholderanalyse (siehe Tabelle 2-1) zeigt, dass sich die geplante Sicherheits-App an eine diverse Gruppe von Nutzenden richtet. Obwohl sich diese Gruppen in der Art und Intensität ihrer Outdoor-Aktivitäten unterscheiden, eint sie alle das grundlegende Bedürfnis nach Sicherheit bei der Durchführung ihrer Aktivitäten im Freien. Gleichzeitig variieren die konkreten Erwartungen an Funktionen, technische Unterstützung sowie die Nutzererfahrung je nach Aktivitätsprofil und dem jeweiligen Umfeld stark.
+
+Personen, die Laufen/Joggen oder Nordic Walking betreiben und oft allein sowie in wechselnden Umgebungen unterwegs sind, legen größten Wert auf die Sicherheit auf unbekannten Strecken, ein zuverlässiges Notfall-Backup und eine schnelle, automatische Unfallmeldung. Die Herausforderung bei der Bereitstellung dieser Funktionen besteht darin, sie zu integrieren, ohne den Nutzenden das Gefühl permanenter Überwachung zu vermitteln und dabei gleichzeitig die Anzahl unnötiger Fehlalarme auf ein Minimum zu reduzieren.
+
+Radfahrende legen großen Wert auf Funktionen wie GPS-Tracking, Notfallkontakte und eine zuverlässige Sturz- oder Unfallerkennung, da sie im Vergleich zu anderen Nutzenden oft längere Strecken zurücklegen und stärker dem Straßenverkehr ausgesetzt sind. Gleichzeitig werden dabei vor allem der hohe Akkuverbrauch sowie Datenschutzfragen als potenzielle Barrieren angesehen, insbesondere wenn die Anwendung über mehrere Stunden intensiv genutzt wird.
+Für Personen, die Wandern, sind eine Standortübermittlung, eine robuste Offline-Funktionalität und ein gesicherter Zugang zur Rettungskette entscheidend. Diese Anforderungen sind besonders in abgelegenen Gebieten wie Wäldern, Bergen oder auf Feldwegen relevant. Dort stellen Funklöcher und die Abhängigkeit von der verwendeten Technik große Herausforderungen dar, da digitale Anwendungen in solchen Umgebungen oft nur begrenzt funktionsfähig sind.
+Spaziergehende und Hundebesitzende legen den Fokus primär auf sichtbare Unterstützung bei Dunkelheit, schnelle Hilfe im Notfall und eine besonders einfache, hürdenfreie Bedienung. Da diese Zielgruppe digitale Anwendungen oft nicht routiniert nutzt, ist eine intuitive Oberfläche von entscheidender Bedeutung. Die geringe Technikaffinität stellt dabei die größte Herausforderung dar.
+
+Neben den aufgeführten aktiven Nutzenden müssen auch indirekte Stakeholder berücksichtigt werden:
+
+Angehörige und der Freundeskreis erwarten Echtzeitinformationen und klare Alarmbenachrichtigungen, wenn es zu Notfällen kommt. Gleichzeitig ist die Balance zwischen Schutz und Privatsphäre ein sensibler Punkt, da nicht immer klar ist, wann und wie Daten geteilt werden sollten.
+Auch alarmierte Personen, etwa Angehörige, die im Ernstfall informiert werden, sind betroffen. Sie haben das Bedürfnis nach Sicherheit für ihre Liebsten, stehen aber vor Herausforderungen wie Fehlalarmen und der damit verbundenen emotionalen Belastung.
+Darüber hinaus können Sportvereine, Laufgruppen und Outdoor-Communities von einer freiwilligen Datenfreigabe profitieren. Sie versprechen sich Mehrwert für ihre Mitglieder und potenziell einen Imagegewinn durch den Einsatz einer Sicherheitslösung. Gleichzeitig stellen Haftungsfragen und der Umgang mit Datenfreigaben zentrale Herausforderungen dar.
+Zusammenfassend lässt sich auf Basis der Stakeholderanalyse festhalten, dass eine Sicherheits-App für Outdooraktivitäten unbedingt sicherheitsrelevante Kernfunktionen, Datenschutz, technische Verlässlichkeit und anwenderfreundliche Bedienung in ein ausgewogenes Verhältnis bringen muss. Entscheidend ist dabei, die unterschiedlichen Nutzungsszenarien sowie die Erwartungshaltung aller einzelnen Stakeholder umfassend zu berücksichtigen.
+
+
+
+
+    
+% 1. Einstellungen VOR der Umgebung machen
+\footnotesize 
+\renewcommand{\arraystretch}{1.6}
+
+% 2. Start der xltabular Umgebung
+% Ich habe p{2.5cm} auf p{3cm} erhöht, damit "Spaziergehende..." besser passt.
+\begin{xltabular}{\textwidth}{>{\RaggedRight}p{2.75cm} L L L}
+
+    % --- DEFINITION DES KOPFBEREICHS ---
+    
+    % A) Kopf auf der ERSTEN Seite
+    \caption{Stakeholderanalyse} \label{tab:stakeholderanalyse} \\ % WICHTIG: Hier muss ein \\ hin!
+    \toprule
+    \textbf{Zielgruppe} & \textbf{Beschreibung} & \textbf{Bedürfnisse} & \textbf{Herausforderungen} \\
+    \midrule
+    \endfirsthead % Beendet den Kopf der ersten Seite
+    
+    % B) Kopf auf FOLGE-SEITEN (falls die Tabelle umbricht)
+    \caption*{Stakeholderanalyse (Fortsetzung)} \\ % Optional: Wiederholung der Caption
+    \toprule
+    \textbf{Zielgruppe} & \textbf{Beschreibung} & \textbf{Bedürfnisse} & \textbf{Herausf.} \\
+    \midrule
+    \endhead % Beendet den Kopf aller Folgeseiten
+    
+    % C) Fußzeile auf JEDER Seite (unten)
+    \bottomrule
+    \endfoot % Beendet den Fußbereich
+    
+    % --- HIER BEGINNT ERST DER INHALT ---
+
+    Laufende, Joggende und Walkende & Menschen, die regelmäßig laufen/joggen oder walken, häufig allein und in wechselnden Umgebungen & Sicherheit auf unbekannten Strecken, Notfall-Backup, automatische Unfallmeldung & Angst vor Überwachung, Fehlalarme \\
+    
+    Radfahrende & Freizeit- und Alltagsradelnde, auch auf längeren Touren & GPS-Tracking, Notfallkontakte, Unfall- oder Sturzerkennung & Akkuverbrauch, Datenschutz \\
+    
+    Wandernde & Personen, die sich in der Natur bewegen (Wald, Berge, Feldwege). & Standortübermittlung, Offline-Funktionalität, Rettungszugang & Funklöcher, Vertrauen in Technik \\
+    
+    Spaziergehende und Hundebesitzende & Personen, die regelmäßig draußen spazieren (alleine und/oder mit Hund), auch bei Dunkelheit & Sichtbarkeit, schnelle Hilfe im Notfall, einfache Bedienung & Geringe Technikaffinität \\
+    
+    Angehörige und Freundeskreis & Familie oder Bekannte der aktiven Personen & Echtzeit-Infos, Alarmbenachrichtigung bei Notfällen & Balance zwischen Schutz und Privatsphäre \\
+    
+    Alarmierte Personen (z. B. Angehörige) & Erhalten Benachrichtigung bei Notfällen & Sicherheit für ihre Liebsten & Fehlalarme, emotionale Belastung \\
+    
+    Sportvereine, Laufgruppen & Können bei Freigabe durch sporttreibende Person Benachrichtigungen erhalten & Nutzen für Mitglieder, Imagegewinn & Haftungsfragen, Datenfreigabe \\
+
+\end{xltabular}
+
+\normalsize 
+\renewcommand{\arraystretch}{1}
+
+\section{Online-Umfrage}
+Zur Erhebung des Sicherheitsbedürfnisses sowie der Erwartungen und Wünsche der Nutzenden bei Outdoor-Aktivitäten wurde eine Online-Umfrage durchgeführt. Das Ziel dieser Umfrage war es, eine möglichst heterogene Gruppe zu befragen. Dadurch sollten unterschiedliche Sichtweisen, etwa von sportlich aktiven Menschen und deren Angehörigen, berücksichtigt werden.
+
+\subsection{Ziele, Methodik und Fragebogen}
+
+Die Online-Umfrage zur Ermittlung des Sicherheitsbedürfnisses umfasste zwei Versionen von Fragebögen (siehe Anhang A). Eine Version richtete sich an sportlich aktive Menschen, während eine zweite Version für deren Angehörige konzipiert wurde. Beide Gruppen beantworteten einen gemeinsamen Kernsatz von Fragen, der teilweise jedoch gruppenspezifische Fragestellungen bzw. Items beinhaltete. Die Länge des Fragebogens betrug für beide Gruppen maximal zwölf Fragen und variierte je nach den gegebenen Antworten. Er beinhaltete Pflichtfragen und optionale Freitextantworten. Die maximale Bearbeitungsdauer wurde auf fünf Minuten festgelegt, um eine hohe Teilnehmerzahl zu erreichen. Erstellt wurde die Umfrage mithilfe der Software SoSci Survey. Sie gliederte sich in drei Teile.
+
+\begin{enumerate}
+    \item Einordnung Zielgruppe und Kontext \newline Fragen zur Art und Häufigkeit der Outdoor-Aktivitäten, Smartphone-Mitnahme, aktuelle Sicherheitsmaßnahmen und gefühlte Unsicherheit/Gefahr
+    \item Persönliche Präferenzen, Erwartungen und Wünsche an eine Sicherheits-App \newline Fragen zur Relevanz von Faktoren bei der App-Nutzung, gewünschten App-Funktionen, Wahrscheinlichkeit der App-Nutzung, Gründe für eine Nicht-Nutzung sowie Anmerkungen und Wünsche
+    \item Soziodemografische Merkmale \newline Abfrage von Alter und Geschlecht
+\end{enumerate}
+
+Die Online-Umfrage wurde vom 8. bis zum 23. November 2025 durchgeführt. Die Rekrutierung der Teilnehmenden erfolgte über das Umfrage-Forum im Lernraum der Technischen Hochschule Lübeck, das Kursforum des Moduls „Human-Centered Design“ sowie über private Netzwerke/Kontakte. 
+
+Die erhobenen Daten wurden aus SoSci in R importiert und dort ausgewertet.
+
+\subsection{Auswertung und zentrale Ergebnisse}
+
+Während des zweiwöchigen Umfragezeitraums (8. bis 23. November 2025) nahmen insgesamt 132 Personen an der Online-Umfrage teil. Die Basis für die folgende Auswertung bilden 112 vollständig ausgefüllte Online-Fragebögen. Die restlichen 20 Personen haben die Umfrage nicht vollständig abgeschlossen. Mit 4 Minuten und 35 Sekunden lag die durchschnittliche Befragungsdauer nahezu exakt bei der vorhergesagten Zeit von rund 5 Minuten.
+
+\subsubsection{Geschlecht}
+Die Geschlechterverteilung ist mit 66\% weiblichen und 31,3\% männlichen Teilnehmenden relativ ausgeglichen. Drei Personen (2,7\%) gaben an, sich als divers zu identifizieren
+
+\subsubsection{Alter}
+Die Teilnehmenden sind zwischen 18 und 74 Jahren alt. Das Durchschnittsalter beträgt 36 Jahre, mit einer Standardabweichung von 14. Abbildung 2-1 zeigt die prozentuale Altersverteilung in Intervallen von 18─29 Jahren, 30─39 Jahren, 40─49 Jahren, 50─59 Jahren, 60─69 Jahren und 70─74 Jahren. Der Anteil der 18- bis 29-Jährigen ist mit 42,6\% am größten. Demgegenüber sind lediglich 2,8\% der Teilnehmenden über 70 Jahre alt.
+
+\subsubsection{Durchführung von Outdoor-Aktivitäten}
+Die nachfolgenden Abbildung 2-2 bis Abbildung 2-6 veranschaulichen die prozentuale Verteilung der wöchentlichen Durchführung der fünf vorgegebenen Outdoor-Aktivitäten (Laufen/Joggen, Radfahren, Spazierengehen, Walken/Nordic 	Walking und Wandern). Fast alle Teilnehmenden (94\%) üben mindestens eine dieser 	Aktivitäten pro Woche aus. Die häufigsten Aktivitäten sind Spazierengehen (58,9\%) 	und Fahrradfahren (52,7\%). Diese Frage sollte ursprünglich zur Einordnung dienen, ob es sich um sportlich aktive Menschen oder deren Angehörige handelt. Die Logik des Fragebogens sah vor, dass Personen als Angehörige gelten, wenn sie bei allen fünf Outdoor-Aktivitäten „nie“ angaben. Im Nachhinein stellte sich diese Filterlogik jedoch als fehlerhaft heraus, da dies auf keinen der Befragten zutraf. Hier hätte man in einer der Folgefragen sicherlich eine zusätzliche Filterfrage einbauen müssen. In der weiteren Auswertung fehlt nun leider die Perspektive der Angehörigen.
