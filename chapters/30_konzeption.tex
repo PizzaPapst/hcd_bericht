@@ -1,40 +1,82 @@
-\chapter{Automatische Analyse}
-Die automatisierte Analyse der Startseite sowie der Unterseiten foehr.de/barrierefrei und foehr.de/gezeiten erfolgte im Rahmen eines digitalen Gruppentreffens am 21. Dezember 2025 von ca. 10:00–13:30 Uhr (inklusive Vor- und Nachbesprechung). Die drei Gruppenmitglieder testeten alle Seiten jeweils mit einem unterschiedlichen Analysetool und Geräten. Als Analysetools wurden die weitverbreiteten Tools WAVE \autocite{noauthor_wave_nodate}, Axe DevTools \autocite{noauthor_axe_nodate} und Google Lighthouse \autocite{noauthor_lighthouse_nodate} verwendet. Die folgende Auflistung zeigt die Testumgebung der Einzelnen Teilnehmer:
+\chapter{Konzeption}
+Die in den vorangegangenen Kapiteln gewonnenen Erkenntnisse werden in diesem Kapitel in die Konzeption von Personas, Szenarien sowie einer Aufgabenanalyse-Matrix überführt. Der Fokus dieser Phase liegt bewusst auf der Entwicklung für die Nutzergruppe der Aktiven. Aufgrund der fehlenden Perspektive der Angehörigen, nicht zuletzt bedingt durch fehlerhafte Daten aus der Online-Umfrage, besteht Klärungsbedarf hinsichtlich der notwendigen Funktionalitäten und der konkreten Ausgestaltung des Prototyps für diese Zielgruppe. Die Berücksichtigung der Angehörigenperspektive ist somit nicht Teil der nachfolgenden Konzeption sowie Evaluation und Einführungsphase.
 
+\section{Personas}
+
+\subsection{Persona 1: Laura Stahl}
 \begin{itemize}
-    \item Axe DevTools (Chrome, MacBook, 16 Zoll Bildschirm)
-    \item WAVE (Chrome, Laptop, Windows, 27 Zoll Bildschirm)
-    \item Lighthouse (Chrome, MacBook, 27 Zoll Bildschirm)
+\item \textbf{Alter:} 36 Jahre
+    
+\item \textbf{Beruf:} freie TV-Autorin beim Westdeutschen Rundfunk, hohe Reisetätigkeit für Dreharbeiten und unregelmäßige Arbeitszeiten
+
+\item \textbf{Familien-Background:} Lebt mit ihrem Partner in Köln-Ehrenfeld (keine Kinder). Ihr Partner arbeitet in Mainz und ist daher nur am Wochenende zu Hause. Sie verbringt die Wochentage oft allein.
+
+\item \textbf{Outdoor-Aktivitäten:} Geht spontan nach Feierabend oder in der Mittagspause allein spazieren (oft in städtischen Parks oder entlang des Rheins), um Stress abzubauen und den Kopf freizubekommen. Meistens ist das erst nach Einbruch der Dunkelheit der Fall.
+
+\item \textbf{IT-Vorkenntnisse:} gute Kenntnisse, sie nutzt häufig dieselben Apps und digitalen Tools vor allem in ihrem Job
+
+\item \textbf{Endgeräte:} iPhone, Apple Watch mit LTE, Bluetooth-Kopfhörer
+
+\item \textbf{Häufig genutzte Anwendungen:} WhatsApp, Google Maps, Apple Health, DB Navigator, Spotify
+
+\item \textbf{Persönliche Ziele:} Sie möchte sich bei ihren Spaziergängen in vertrauter Umgebung in Köln sowie auf Reisen jederzeit sicher fühlen, unabhängig von Dunkelheit oder Tageszeit. Sie sucht nach Wegen, um sich schnell bemerkbar zu machen oder vertrauenswürdige Kontakte bzw. im Notfall Hilfsdienste zu alarmieren, falls sie sich unwohl fühlt.
+
+\item \textbf{Einstellungen:} Ihre größte Sorge sind Überfälle oder Belästigungen, besonders wenn sie allein in unbekannten Gebieten oder Brennpunktvierteln in Großstädten unterwegs ist. Sie legt großen Wert auf eine intuitive App-Bedienung, die über eine Notfall-SOS-Funktion, eine transparente Standortfreigabe und zuverlässige Warnhinweise verfügt.
+
 \end{itemize}
 
-In dem nachfolgenden Unterkapitel werden die Ergebnisse werden die zentralen Analyseergebnisse getrennt nach Analysetool sowie eine Bewertung der Ergebnisse in Auszügen dargestellt. Fehler, die allgemeine Komponenten (wie Header und Footer) oder Styleguide-Vorgaben betreffen (z. B. unzureichender Text-/Farbkontrast), wurden pro Analyse-Tool nur einmalig für die Startseite dokumentiert, selbst wenn sie vom Tool mehrfach bemängelt wurden. Die vollständigen Testtabellen sind in \autoref{app:autoAxe}, \autoref{app:autoWAVE} und \autoref{app:autoLighthouse} zu finden.
+\subsection{Persona 2: Rosa Leitner}
+\begin{itemize}
+\item \textbf{Alter:} 25 Jahre
 
-\section{Axe DevTools}
-Axe ließ sich als Browsererweiterung einbinden und über die DevTools aufrufen. Für die Tests in diesem Modul wurde eine 7-tägige Testversion der Vollversion genutzt, um auf alle Features zugreifen zu können; vollautomatische Tests sind jedoch auch im Free-Plan verfügbar. Axe unterteilt den Prüfprozess in drei Abschnitte: eine automatische Überprüfung, halbautomatische Tests und manuelle Tests. Im Rahmen dieser Aufgabe wurde lediglich das vollautomatische Testverfahren der Axe DevTools angewendet.
+\item \textbf{Beruf:} Studentin der Umweltwissenschaften an der Uni Freiburg
 
-Die Untersuchung ergab auf sämtlichen getesteten Seiten Verstöße gegen die Barrierefreiheit. Im Detail wurden auf der Startseite zwei, auf der Barrierefrei-Seite drei und auf der Gezeiten-Seite zwei Kriterien nicht erfüllt. Die identifizierten Barrieren betreffen die Prüfschritte 9.1.1.1b (Alternativtexte für Grafiken und Objekte), 9.1.4.3 (Kontraste von Texten), 9.1.3.1h (Beschriftung von Formularelementen programmatisch ermittelbar) sowie 9.4.1.2 (Name, Rolle, Wert). Eine detaillierte Aufstellung der Ergebnisse inklusive weiterführender Hinweise sind in \autoref{tab:testergebnisse-startseite-axe}, \autoref{tab:testergebnisse-barrierefrei-axe} und \autoref{tab:testergebnisse-gezeiten-axe} zu finden.
+\item \textbf{Familien-Background:} Lebt in einer WG am Stadtrand von Freiburg. Ihre Familie wohnt in  Hinterzarten. Sie nutzt häufig öffentliche Verkehrsmittel oder das Fahrrad.
 
-Der automatisierte Test fand zuverlässig Barrieren, es traten dabei keine falsch-positiven Ergebnisse ("`Findings"') auf. Die rein automatischen Tests lieferten quantitativ eher wenige Resultate, da Axe primär den Ansatz der halbautomatischen Tests (IGTs) verfolgt. Bei diesen IGTs handelt es sich um automatische Tests, die eine Überprüfung durch einen Tester erfordern ("`Human-in-the-Loop"'). Dies führt dazu, dass der vollautomatische Test eher konservativ agiert und nur jene Fehler meldet, die eindeutig programmseitig erkennbar sind.
+\item \textbf{Outdoor-Aktivitäten:} Trailrunning am Wochenende im Schwarzwald, regelmäßige Wanderungen mit Kommilitoninnen oder allein in entlegenen Gebieten im Schwarzwald oder mehrtägige Touren in den Semesterferien in Skandinavien
 
-Hinsichtlich der Bedienung und Erklärungen erwies sich Axe als sehr nützliches Werkzeug. Barrieren wurden gut aufbereitet und ließen sich auf der Seite hervorheben, zudem lieferte das Tool Erklärungen sowie Verbesserungsvorschläge. Lediglich die Möglichkeit, falsch-positive Ergebnisse manuell zu entfernen, fehlte.
+\item \textbf{IT-Vorkenntnisse:} Gute Kenntnisse, ist technikaffin und nutzt digitale Tools zur Kartierung und Datenanalyse im Studium
 
-\section{Wave}
-Die Untersuchung ergab auf sämtlichen getesteten Seiten Verstöße gegen die Barrierefreiheit. Im Detail wurden auf der Startseite vier, auf der Barrierefrei-Seite zwei und auf der Gezeiten-Seite drei Kriterien nicht erfüllt. Die identifizierten Barrieren betreffen die Prüfschritte 9.1.1.1b (Alternativtexte für Grafiken und Objekte), 9.1.4.3 (Kontraste von Texten), 9.2.4.4 (Aussagekräftige Linktexte), 9.2.4.6 (Aussagekräftige Überschriften und Beschriftungen) sowie 9.3.3.2 (Beschriftungen von Formularelementen vorhanden). Eine detaillierte Aufstellung der Ergebnisse inklusive weiterführender Hinweise sind in \autoref{tab:testergebnisse-startseite-wave}, \autoref{tab:testergebnisse-barrierefrei-wave} und \autoref{tab:testergebnisse-gezeiten-wave} zu finden.
+\item \textbf{Endgeräte:} Android-Smartphone, Polar Multisportuhr, zusätzliches einfaches GPS-Gerät ohne Mobilfunk, Windows Laptop
 
-Durch die Browser-Extension ließ sich WAVE schnell und unkompliziert in Chrome nutzen. Ein Vorteil beim Testing war, dass die Ergebnisse direkt auf der Webseite durch verschiedene Icons visualisiert wurden. Fehler, Warnungen und Hinweise wurden unmittelbar im Layout markiert, was die Analyse erleichtert. Teilweise erwies sich die Sprungmarke zum jeweiligen Fehler jedoch als unübersichtlich, sodass die betroffene Stelle nicht immer eindeutig identifiziert werden konnte. In diesen Fällen war es notwendig, zusätzlich die Chrome DevTools zu nutzen, um die genaue Position im Code zu finden. Sehr hilfreich war allerdings, dass zu jedem erkannten Problem verständliche Erklärungen, konkrete Lösungsvorschläge sowie ein direkter Bezug zu den entsprechenden WCAG-Erfolgskriterien bereitgestellt werden.
+\item Häufig genutzte Anwendungen: Outdooractive, adidas Running, Bergfex Wetter, Google Maps, Signal
 
-Wie bei vielen automatisierten Tools sind auch bei WAVE die gefundenen Fehler und Alerts häufig kontextabhängig und erfordern Fachwissen für eine korrekte Bewertung. Im Vergleich zu Axe und Lighthouse fand WAVE im durchgeführten Test jedoch die meisten Fehler und Alerts.
+\item \textbf{Persönliche Ziele:} Sie möchte die Natur unabhängig und frei genießen, dabei aber jederzeit sicher unterwegs sein. Besonders wichtig sind ihr Offline-Funktionen, zuverlässige GPS-Ortung sowie Notfallfunktionen ohne Mobilfunknetz. Sie möchte Risiken wie Stürze oder Verlaufen vermeiden.
+
+\item \textbf{Einstellungen:} Sie fürchtet sich davor, in entlegenen Gegenden allein zu sein, ohne dass schnelle Hilfe erreichbar ist. Eng damit verbunden ist die Angst vor Stürzen oder Verletzungen auf unebenen Pfaden. Aufgrund dieser Bedenken ist ihr eine zuverlässige technische Ausstattung besonders wichtig. Sie verlässt sich auf Offline-Karten zur Navigation, eine Notfall-SOS-Funktion und eine automatische Bewegungserkennung. Ihre Standortfreigabe nutzt sie nur sehr bewusst und situativ, meistens gegenüber ihrer Familie oder ihrer WG.
 
 
-\section{Google Lighthouse}
-Die Untersuchung ergab auf sämtlichen getesteten Seiten Verstöße gegen die Barrierefreiheit. Im Detail wurden auf der Startseite drei, auf der Barrierefrei-Seite drei und auf der Gezeiten-Seite zwei Kriterien nicht erfüllt. Die identifizierten Barrieren betreffen die Prüfschritte 9.1.1.1b (Alternativtexte für Grafiken und Objekte), 9.1.3.1a (HTML-Strukturelemente für Überschriften), 9.1.3.1h (Beschriftung von Formularelementen programmatisch ermittelbar), 9.1.4.3 (Kontraste von Texten) sowie 9.4.1.2 (Name, Rolle, Wert). Eine detaillierte Aufstellung der Ergebnisse inklusive weiterführender Hinweise sind in \autoref{tab:testergebnisse-startseite-lighthouse}, \autoref{tab:testergebnisse-barrierefrei-lighthouse} und \autoref{tab:testergebnisse-gezeiten-lighthouse} zu finden.
+\end{itemize}
 
-Die Analyse mit Google Lighthouse erfolgte direkt über die Chrome DevTools und ließ sich ohne zusätzliche Erweiterungen durchführen. Lighthouse basiert für die Barrierefreiheitsprüfung ebenfalls auf der Prüf-Engine axe-core und liefert daher überwiegend vergleichbare Ergebnisse zu axe. Der Fokus liegt auf vollautomatisch erkennbaren Problemen, wodurch die Anzahl der gefundenen Barrieren insgesamt eher begrenzt ist.
+\subsection{Persona 3: Markus Schneider}
+\begin{itemize}
+\item Alter: 48 Jahre
 
-Die Ergebnisse werden in Form eines strukturierten Berichts mit einer numerischen Bewertung sowie einer Liste konkreter Prüfungen dargestellt. Positiv hervorzuheben ist, dass Lighthouse zu jedem gefundenen Problem eine kurze Beschreibung, Hinweise zur Behebung und einen Bezug zu den entsprechenden WCAG-Erfolgskriterien bereitstellt. Dadurch eignet sich das Tool gut für eine erste Einschätzung des Barrierefreiheitsstatus einer Seite.
+\item \textbf{Beruf:} Projektmanager im Bereich Windkraft/erneuerbare Energien
 
-Im Gegensatz zu WAVE werden die gefundenen Probleme jedoch nicht direkt im Seitenlayout visualisiert, sondern ausschließlich im Bericht angezeigt. Um die betroffenen Stellen im Code eindeutig zu identifizieren, ist daher häufig eine zusätzliche Analyse über die Chrome DevTools erforderlich. Wie bei allen automatisierten Prüf-Tools gilt auch bei Lighthouse, dass die Ergebnisse kontextabhängig interpretiert werden müssen und eine manuelle Prüfung für eine vollständige BITV-Bewertung unerlässlich ist.
+\item \textbf{Familien-Background:} Verheiratet, zwei Kinder, lebt in Hamburg-Harburg
 
-\section{Fazit automatische Analysetools}
+\item \textbf{Outdoor-Aktivitäten:} Täglicher Radpendler (ca. 20 km pro Strecke), Rennradtouren im Großraum Hamburg am Wochenende, Wanderurlaub mit der Familie
 
-Zunächsteinmal war auffällig, dass alle drei Tools insagesamt nur für sehr wenige Prüfkriterien (zwischen zwei und sechs) Barrieren entdecken konnten. Weiterhin waren die Unterschiede zwischen den Tools auffällig, während Axe und Lighthouse einen eher konservativen Ansatz verfolgten, fand WAVE deutlich mehr Fehler. Es ist somit ratsam mehrere Tools zu verwenden, da unterschiedliche Barrieren auf gleichen Seiten gefunden werden können. Weiterhin war auffällig, dass Barrieren von Tools unterschiedlich Interpretiert werden. Während Axe ein fehlendes Label in den Prüfschritt 9.1.3.1 einordnete, verordnete WAVE den Fehler für das gleiche Eingabelemente unter Prüfschritt 9.3.3.2. Diese unterschiedliche Einordnung von Barrieren macht es für den Tester schwierig Tools zu vergleichen. Es muss immer auf Toolspezifische Muster geachtet werden, bei der Verwendung und speziell beim Vergleich der Ergebnisse solcher Analysetools.
+\item \textbf{IT-Vorkenntnisse:} Sehr gute Kenntnisse, da er technische Projektsoftware, Geoinformationen und digitale Planungstools in seinem Job nutzt.
+
+\item \textbf{Endgeräte:} Android-Smartphone, Smartwatch und GPS-Radcomputer (beides Garmin), Windows Laptop
+
+Häufig genutzte Anwendungen: WhatsApp, Komoot, Google Maps, Wetter.com, Strava und Garmin Connect
+\item \textbf{Persönliche Ziele:} Er möchte unabhängig von Wetter und Tageszeit sicher mit dem Rad unterwegs sein. Selbst dann, wenn er allein und im Dunkeln fährt. Er nutzt Apps gerne, um Risiken frühzeitig zu erkennen und Touren vorausschauend zu planen.
+
+\item \textbf{Einstellungen:} Stürze auf dem Rad sind seine größte Sorge. Er hat außerdem eine hohe Sensibilität für Sicherheit und Datenschutz. Ebenso legt er Wert auf Offline-Karten, zuverlässige Navigationsdaten und proaktive Gefahrenhinweise. Er erwartet eine intuitive und funktionsstarke App.
+
+
+\end{itemize}
+
+\section{Szenarien}
+
+\subsection{IST-Szenario Rosa Leitner}
+Rosa ist begeisterte Trailrunnerin und lebt in einer WG im Schwarzwald. An einem Herbstmorgen plant sie eine Trainingsrunde auf einer abgelegenen Waldstrecke. Beim Frühstück bespricht sie mit ihren Mitbewohnerinnen kurz die Wetterlage, da es in der Nacht geregnet hat, mögliche Routen und erinnert sich daran, dass der Mobilfunkempfang auf den Strecken oft schlecht ist. Sicherheitshalber lädt sie die Offline-Karte aus ihrer Komoot-App herunter und speichert die geplante Strecke auf ihrem Smartphone. Zur Absicherung schreibt sie noch eine Nachricht an eine Freundin mit der gewählten Strecke und der voraussichtlichen Dauer. Nach einem kurzen Warm-up startet Rosa den Lauf. Nach wenigen Kilometern bemerkt sie, dass ihr Handy wieder mal kaum Empfang hat. Die Strecke ist matschig, rutschig und teilweise schwer zu erkennen. Rosa konzentriert sich stark auf den Weg und fühlt sich angespannt, weil sie alleine unterwegs ist und im Notfall niemanden erreichen kann. Sie versucht, ihr Lauftempo beizubehalten, obwohl sie sich unwohl fühlt. Nach einem steilen Abhang rutscht Rosa plötzlich auf nassen Wurzeln aus und stürzt. Rosa realisiert, dass sie weder den Notruf absetzen noch jemanden anrufen kann, da kein Signal vorhanden ist. Verunsichert und unter Schmerzen steht sie auf, bricht ihren Trailrun ab und humpelt nach Hause. Ihr wird klar, wie lückenhaft ihre Absicherung unterwegs ist. Apps unterstützen sie zwar, aber wirklich proaktive Sicherheitsfunktionen fehlen und das besonders dort, wo sie sie am dringendsten braucht.
+
+\subsection{IST-Szenario für Persona Markus Schneider}
+Es ist 5:30 Uhr an einem kalten Wintermorgen. Markus steht auf, während es draußen noch stockdunkel ist. Seine Familie schläft noch. Bevor er losfährt, prüft er wie jeden Tag in mehreren Apps die Verkehrslage und das Wetter für seinen 20-Kilometer-Radweg von Hamburg-Harburg in die Innenstadt. Nachdem er sich seine reflektierende Kleidung angezogen und seinen Garmin-Radcomputer gestartet hat, beginnt seine Fahrt durch wechselnde Lichtverhältnisse. Besonders die dunklen Abschnitte hasst er. Glatte Stellen, Äste oder blockierte Wege sind kaum zu erkennen und werden von keiner App vorhergesagt. Im Büro angekommen synchronisiert Markus seine Fahrt wie gewohnt mit Strava und Garmin Connect. Anschließend sendet er seiner Frau eine kurze WhatsApp-Nachricht, dass er gut angekommen ist und es draußen sehr glatt ist. Sie möge bei ihrer morgendlichen Laufrunde doch bitte besonders gut aufpassen. 
+Insgesamt funktioniert sein täglicher Ablauf zwar verlässlich, ist jedoch fragmentiert. Die Informationen sind verstreut, Hinweise häufig unvollständig und eine wirklich proaktive Sicherheitsunterstützung fehlt völlig. Keine App warnt ihn beispielsweise gezielt vor relevanten Gefahren wie Glätte, schlecht beleuchteten Bereichen oder spontanen Hindernissen. Gerade jetzt an dunklen, winterlichen Tagen wünscht sich Markus eine App, die ihm frühzeitig Orientierung und Sicherheit bietet, anstatt dass er sich alle relevanten Informationen selbst zusammensuchen muss.
+
+\section{Aufgabenanalyse-Matrix}

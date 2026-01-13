@@ -1,9 +1,6 @@
 \chapter{Analyse}
 Text blablabla
 
-\section{Marktanalyse/Benchmarking}
-Text blablabla
-
 \section{Stakeholderanalyse}
 Die Stakeholderanalyse (siehe Tabelle 2-1) zeigt, dass sich die geplante Sicherheits-App an eine diverse Gruppe von Nutzenden richtet. Obwohl sich diese Gruppen in der Art und Intensität ihrer Outdoor-Aktivitäten unterscheiden, eint sie alle das grundlegende Bedürfnis nach Sicherheit bei der Durchführung ihrer Aktivitäten im Freien. Gleichzeitig variieren die konkreten Erwartungen an Funktionen, technische Unterstützung sowie die Nutzererfahrung je nach Aktivitätsprofil und dem jeweiligen Umfeld stark.
 
@@ -81,12 +78,12 @@ Zur Erhebung des Sicherheitsbedürfnisses sowie der Erwartungen und Wünsche der
 Die Online-Umfrage zur Ermittlung des Sicherheitsbedürfnisses umfasste zwei Versionen von Fragebögen (siehe Anhang A). Eine Version richtete sich an sportlich aktive Menschen, während eine zweite Version für deren Angehörige konzipiert wurde. Beide Gruppen beantworteten einen gemeinsamen Kernsatz von Fragen, der teilweise jedoch gruppenspezifische Fragestellungen bzw. Items beinhaltete. Die Länge des Fragebogens betrug für beide Gruppen maximal zwölf Fragen und variierte je nach den gegebenen Antworten. Er beinhaltete Pflichtfragen und optionale Freitextantworten. Die maximale Bearbeitungsdauer wurde auf fünf Minuten festgelegt, um eine hohe Teilnehmerzahl zu erreichen. Erstellt wurde die Umfrage mithilfe der Software SoSci Survey. Sie gliederte sich in drei Teile.
 
 \begin{enumerate}
-    \item Einordnung Zielgruppe und Kontext \newline Fragen zur Art und Häufigkeit der Outdoor-Aktivitäten, Smartphone-Mitnahme, aktuelle Sicherheitsmaßnahmen und gefühlte Unsicherheit/Gefahr
-    \item Persönliche Präferenzen, Erwartungen und Wünsche an eine Sicherheits-App \newline Fragen zur Relevanz von Faktoren bei der App-Nutzung, gewünschten App-Funktionen, Wahrscheinlichkeit der App-Nutzung, Gründe für eine Nicht-Nutzung sowie Anmerkungen und Wünsche
-    \item Soziodemografische Merkmale \newline Abfrage von Alter und Geschlecht
+    \item \textbf{Einordnung Zielgruppe und Kontext:} Fragen zur Art und Häufigkeit der Outdoor-Aktivitäten, Smartphone-Mitnahme, aktuelle Sicherheitsmaßnahmen und gefühlte Unsicherheit/Gefahr
+    \item \textbf{Persönliche Präferenzen, Erwartungen und Wünsche an eine Sicherheits-App:} Fragen zur Relevanz von Faktoren bei der App-Nutzung, gewünschten App-Funktionen, Wahrscheinlichkeit der App-Nutzung, Gründe für eine Nicht-Nutzung sowie Anmerkungen und Wünsche
+    \item \textbf{Soziodemografische Merkmale:} Abfrage von Alter und Geschlecht
 \end{enumerate}
 
-Die Online-Umfrage wurde vom 8. bis zum 23. November 2025 durchgeführt. Die Rekrutierung der Teilnehmenden erfolgte über das Umfrage-Forum im Lernraum der Technischen Hochschule Lübeck, das Kursforum des Moduls „Human-Centered Design“ sowie über private Netzwerke/Kontakte. 
+Die Online-Umfrage wurde vom 8. bis zum 23. November 2025 durchgeführt. Die Rekrutierung der Teilnehmenden erfolgte über das Umfrage-Forum im Lernraum der Technischen Hochschule Lübeck, das Kursforum des Moduls "`Human-Centered Design"' sowie über private Netzwerke/Kontakte. 
 
 Die erhobenen Daten wurden aus SoSci in R importiert und dort ausgewertet.
 
@@ -95,10 +92,328 @@ Die erhobenen Daten wurden aus SoSci in R importiert und dort ausgewertet.
 Während des zweiwöchigen Umfragezeitraums (8. bis 23. November 2025) nahmen insgesamt 132 Personen an der Online-Umfrage teil. Die Basis für die folgende Auswertung bilden 112 vollständig ausgefüllte Online-Fragebögen. Die restlichen 20 Personen haben die Umfrage nicht vollständig abgeschlossen. Mit 4 Minuten und 35 Sekunden lag die durchschnittliche Befragungsdauer nahezu exakt bei der vorhergesagten Zeit von rund 5 Minuten.
 
 \subsubsection{Geschlecht}
-Die Geschlechterverteilung ist mit 66\% weiblichen und 31,3\% männlichen Teilnehmenden relativ ausgeglichen. Drei Personen (2,7\%) gaben an, sich als divers zu identifizieren
+Die Geschlechterverteilung ist mit 66\% weiblichen und 31,3\% männlichen Teilnehmenden relativ ausgeglichen. Drei Personen (2,7\%) gaben an, sich als divers zu identifizieren.
+
 
 \subsubsection{Alter}
 Die Teilnehmenden sind zwischen 18 und 74 Jahren alt. Das Durchschnittsalter beträgt 36 Jahre, mit einer Standardabweichung von 14. Abbildung 2-1 zeigt die prozentuale Altersverteilung in Intervallen von 18─29 Jahren, 30─39 Jahren, 40─49 Jahren, 50─59 Jahren, 60─69 Jahren und 70─74 Jahren. Der Anteil der 18- bis 29-Jährigen ist mit 42,6\% am größten. Demgegenüber sind lediglich 2,8\% der Teilnehmenden über 70 Jahre alt.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.73\textwidth]{figures/Altersverteilung.png} 
+    \caption{Altersverteilung der Befragten in Intervallen (Eigene Darstellung)} 
+    \label{fig:altersverteilung}
+\end{figure}
+
 \subsubsection{Durchführung von Outdoor-Aktivitäten}
-Die nachfolgenden Abbildung 2-2 bis Abbildung 2-6 veranschaulichen die prozentuale Verteilung der wöchentlichen Durchführung der fünf vorgegebenen Outdoor-Aktivitäten (Laufen/Joggen, Radfahren, Spazierengehen, Walken/Nordic 	Walking und Wandern). Fast alle Teilnehmenden (94\%) üben mindestens eine dieser 	Aktivitäten pro Woche aus. Die häufigsten Aktivitäten sind Spazierengehen (58,9\%) 	und Fahrradfahren (52,7\%). Diese Frage sollte ursprünglich zur Einordnung dienen, ob es sich um sportlich aktive Menschen oder deren Angehörige handelt. Die Logik des Fragebogens sah vor, dass Personen als Angehörige gelten, wenn sie bei allen fünf Outdoor-Aktivitäten „nie“ angaben. Im Nachhinein stellte sich diese Filterlogik jedoch als fehlerhaft heraus, da dies auf keinen der Befragten zutraf. Hier hätte man in einer der Folgefragen sicherlich eine zusätzliche Filterfrage einbauen müssen. In der weiteren Auswertung fehlt nun leider die Perspektive der Angehörigen.
+Die nachfolgenden \autoref{fig:laufen} bis \autoref{fig:wandern} veranschaulichen die prozentuale Verteilung der wöchentlichen Durchführung der fünf vorgegebenen Outdoor-Aktivitäten (Laufen/Joggen, Radfahren, Spazierengehen, Walken/NordicWalking und Wandern). Fast alle Teilnehmenden (94\%) üben mindestens eine dieser Aktivitäten pro Woche aus. Die häufigsten Aktivitäten sind Spazierengehen (58,9\%) und Fahrradfahren (52,7\%). Diese Frage sollte ursprünglich zur Einordnung dienen, ob es sich um sportlich aktive Menschen oder deren Angehörige handelt. Die Logik des Fragebogens sah vor, dass Personen als Angehörige gelten, wenn sie bei allen fünf Outdoor-Aktivitäten "`nie"' angaben. Im Nachhinein stellte sich diese Filterlogik jedoch als fehlerhaft heraus, da dies auf keinen der Befragten zutraf. Hier hätte man in einer der Folgefragen sicherlich eine zusätzliche Filterfrage einbauen müssen. In der weiteren Auswertung fehlt nun leider die Perspektive der Angehörigen.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.73\textwidth]{figures/Verteilung_Laufen.png} 
+    \caption{Häufigkeitsverteilung der Aktivität Laufen/Joggen (eigene Darstellung)} 
+    \label{fig:laufen}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.73\textwidth]{figures/Verteilung_Radfahren.png} 
+    \caption{Häufigkeitsverteilung der Aktivität Radfahren (Eigene Darstellung)} 
+    \label{fig:radfahren}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.73\textwidth]{figures/Verteilung_Spazierengehen.png} 
+    \caption{ Häufigkeitsverteilung der Aktivität Spazierengehen (Eigene Darstellung)} 
+    \label{fig:spazieren}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.73\textwidth]{figures/Verteilung_Walken.png} 
+    \caption{ Häufigkeitsverteilung der Aktivität Walken/Nordic Walking (Eigene Darstellung)} 
+    \label{fig:walken}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.73\textwidth]{figures/Verteilung_Wandern.png} 
+    \caption{Häufigkeitsverteilung der Aktivität Wandern (Eigene Darstellung)} 
+    \label{fig:wandern}
+\end{figure}
+
+\subsubsection{Smartphone-Mitnahme bei Outdoor-Aktivitäten}
+
+Die Mitnahme des Smartphones bei Outdoor-Aktivitäten ist bei den Befragten weit verbreitet. Mehr als die Hälfte (55,5\%) gibt an, das Gerät immer dabei zu haben. Zusätzlich nehmen es 32,7\% meistens mit. Demgegenüber steht eine kleine Minderheit von lediglich 2,7\%, die das Smartphone bei Outdoor-Aktivitäten nie mitnimmt. Die prozentuale Häufigkeit der Smartphone-Mitnahme ist in \autoref{fig:smartphone} dargestellt.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{figures/Verteilung_Smartphonezugriff_Outdoor.png} 
+    \caption{Häufigkeitsverteilung Smartphone-Mitnahme bei Outdoor-Aktivitäten (eigene Darstellung)} 
+    \label{fig:smartphone}
+\end{figure}
+
+\subsubsection{Unsicherheit/Gefährdung bei Outdoor-Aktivitäten}
+Die prozentuale Verteilung der empfundenen Unsicherheit und Gefährdung bei Outdoor-Aktivitäten ist in \autoref{fig:unsicher} dargestellt. Insgesamt fühlen sich 59,8\% der Befragten selten oder nie unsicher. Dagegen geben 30,4\% an, sich manchmal unsicher zu fühlen. 9,8\% fühlen sich meistens unsicher oder gefährdet. Weibliche Teilnehmende fühlen sich mit 10,8\% meistens und 37,8\% manchmal signifikant unsicherer/gefährdeter als 8,6\% bzw. 11,4\% der männlichen Befragten. Auffallend ist ein signifikanter Geschlechterunterschied (siehe \autoref{fig:unsicher_weiblich} und \autoref{fig:unsicher_männlich}). Frauen fühlen sich deutlich unsicherer als Männer. Das zeigt sich in den Kategorien "`meistens unsicher” (Frauen: 11\% vs. Männer: 6,1\%) und "`manchmal unsicher” (Frauen: 37\% vs. Männer: 12,1\%). Für die weitere, detaillierte Auswertung wird auf Basis dieser Ergebnisse eine geschlechtsunabhängige Gruppe definiert: Befragte, die sich meistens oder immer unsicher fühlen, werden hierbei als "`Gruppe unsicher"' bezeichnet.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.73\textwidth]{figures/Verteilung_Unsicherheit_Outdoor.png} 
+    \caption{Häufigkeitsverteilung der empfundenen Unsicherheit und Gefährdung bei Outdoor-Aktivitäten bei allen Befragten (eigene Darstellung)} 
+    \label{fig:unsicher}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.73\textwidth]{figures/Angst_weiblich.png} 
+    \caption{Häufigkeitsverteilung der empfundenen Unsicherheit und Gefährdung bei Outdoor-Aktivitäten bei den weiblichen Befragten (eigene Darstellung)} 
+    \label{fig:unsicher_weiblich}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.73\textwidth]{figures/Angst_maennlich.png} 
+    \caption{Häufigkeitsverteilung der empfundenen Unsicherheit und Gefährdung bei Outdoor-Aktivitäten bei den männlichen Befragten (eigene Darstellung)} 
+    \label{fig:unsicher_männlich}
+\end{figure}
+
+\subsubsection{Größte Sorge bei der Durchführung von Outdoor-Aktivitäten}
+Die Teilnehmenden konnten aus einer Liste von sieben vorgegebenen Faktoren diejenigen auswählen, die ihnen bei Outdoor-Aktivitäten die größte Sorge bereiten. Mehrfachantworten waren hierbei möglich. Zusätzlich wurden in einem Freitextfeld unter "`Sonstiges” von zwei Befragten jeweils der Punkt "`Verkehrsunfälle” ergänzt. Es ist anzunehmen, dass hiermit ein Unfall durch Fremdeinwirkung im Straßenverkehr gemeint war und nicht ein Sturz oder eine Verletzung ohne äußere Beteiligung. \autoref{fig:risiken} zeigt die Häufigkeitsverteilung der ausgewählten Faktoren in absteigender Reihenfolge. Zu den drei größten Sorgen zählen "`Überfälle/Belästigungen” (57 Angaben), "`Unfälle/Stürze oder "`Verletzungen"' (56 Angaben) sowie "`Alleinsein in entlegenen Gebieten"' (39 Angaben). Auch hier besteht wieder ein signifikanter Geschlechterunterschied. Die weiblichen Befragten äußerten deutlich mehr Sorge vor Belästigung und Alleinsein (siehe \autoref{fig:risiken_weiblich}), während sich Männer hauptsächlich vor Verletzungen und Stürzen sorgen (siehe \autoref{fig:risiken_männlich}).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.73\textwidth]{figures/Risiken.png} 
+    \caption{ Häufigkeitsverteilung der größten Sorgen bei Outdoor-Aktivitäten bei allen Befragten (eigene Darstellung)} 
+    \label{fig:risiken}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.73\textwidth]{figures/Risiken_weiblich.png} 
+    \caption{ Häufigkeitsverteilung der größten Sorgen bei Outdoor-Aktivitäten bei den weiblichen Befragten (eigene Darstellung)} 
+    \label{fig:risiken_weiblich}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.73\textwidth]{figures/Risiken_maennlich.png} 
+    \caption{ Häufigkeitsverteilung der größten Sorgen bei Outdoor-Aktivitäten bei den männlichen Befragten (eigene Darstellung)} 
+    \label{fig:risiken_männlich}
+\end{figure}
+
+\subsubsection{Aktuelle Sicherheitsmaßnahmen}
+Die Frage zu den aktuellen Sicherheitsmaßnahmen zielte darauf ab, zu ermitteln, welche Vorkehrungen die Befragten bereits treffen, um sich bei ihren Outdoor-Aktivitäten sicherer zu fühlen. Leider wurde diese wichtige Frage aufgrund eines technischen Fehlers in der Umfrage nicht angezeigt. Dieser Fehler fiel leider auch erst nach Ablauf des Befragungszeitraums auf und konnte nachträglich nicht mehr reproduziert werden. Besonders irritierend ist, dass die Frage in allen Pretests korrekt dargestellt wurde und auch in den Datensätzen der Vorabtests entsprechende Werte vorlagen.
+
+\subsubsection{Relevante Faktoren für App-Nutzung allgemein}
+Aus einer Liste von elf vorgegebenen Funktionen konnten die Befragten diejenigen auswählen, die sie generell für die App-Nutzung als wichtig erachten, unabhängig von einer Sicherheits-App für Outdoor-Aktivitäten. Zusätzlich zu dieser Auswahl wurden drei weitere Faktoren im Freitextfeld unter "`Sonstiges” von den Befragten ergänzt. Weitere relevante Faktoren aus dem Freitextfeld waren geringer Datenverbrauch, Betriebssystemunabhängigkeit sowie Offline-Nutzung. \autoref{fig:faktoren} zeigt die Häufigkeitsverteilung der ausgewählten Faktoren in absteigender Reihenfolge. Zu den fünf wichtigsten Funktionen zählen "`Übersichtlichkeit” (83 Angaben), "`Intuitive Bedienung"' (81 Angaben), "`Nützliche Funktionen"' (74 Angaben), "`Leistung \& Zuverlässigkeit"' (74 Angaben) sowie "`Sicherheit \& Datenschutz"' (69 Angaben). Es ließen sich in der Auswertung weder signifikante Geschlechterunterschiede feststellen, noch gibt es Unterschiede bei Befragten der "`Gruppe unsicher”.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{figures/Faktoren.png} 
+    \caption{Häufigkeitsverteilung relevanter Faktoren bei der App-Nutzung allgemein (eigene Darstellung)} 
+    \label{fig:faktoren}
+\end{figure}
+
+\subsubsection{Gewünschte Funktionen für die Sicherheits-App}
+Die Befragten sollten zehn Funktionen für eine Sicherheits-App für Outdoor-Aktivitäten absteigend priorisieren. Die Bewertung reicht von 1 (=am wichtigsten) bis 10 (=am unwichtigsten). Wie aus \autoref{tab:funktion_alle} ersichtlich, zählt die Notfall- SOS-Funktion mit einem Mittelwert von 2,6 zur wichtigsten Funktion,  während eine Verknüpfung mit Sport-Apps die niedrigste Priorität (Mittelwert: 7,4) erreicht. In der Detailauswertung zeigt sich, dass weibliche Befragte (\autoref{tab:funktion_weiblich}) und die "`Gruppe unsicher” (siehe Tabelle 2-4) Funktionen der aktiven Überwachung (Live-Tracking) deutlich höher priorisieren als Männer \autoref{tab:funktion_männlich}. Die "`Gruppe unsicher"' (\autoref{tab:funktion_unsicher}) und Frauen legen zudem signifikant mehr Wert auf akustische Alarmfunktionen (Lauter Alarmton über Lautsprecher). Männer priorisieren Funktionen, die Autonomie und Information fördern, wie Offline-Karten und Wetter- und Gefahrenwarnungen, stärker als Frauen und die "`Gruppe unsicher"'.
+
+% 1. Einstellungen VOR der Umgebung machen
+\footnotesize
+\renewcommand{\arraystretch}{1.5}
+
+\begin{table}[htbp]
+    \centering
+    \caption{Rangfolge und Mittelwerte der gewünschten App-Funktionen bei allen Befragten}
+    \label{tab:funktion_alle}
+    \begin{tabularx}{\textwidth}{X r r} % X für Text, r für Zahlen
+        \toprule
+        \textbf{Funktion} & \textbf{Durchschnitt} & \textbf{Standardabweichung} \\
+        \midrule
+        Notfall-SOS-Funktion & 2,6 & 2,6 \\
+        Live-Tracking & 4,2 & 2,5 \\
+        Offline Karten & 4,3 & 2,7 \\
+        Routen-Check & 5,0 & 2,3  \\
+        Wetter- und Gefahrenwarnungen & 5,4 & 2,6 \\
+        Lauter Alarmton über Lautsprecher & 5,6 & 2,7 \\
+        Geplante Überwachung & 6,7 & 2,4 \\
+        Virtuelle Begleitung & 6,8 & 2,4 \\
+        Automatischer Check-in/Check-out & 6,9 & 2,1 \\
+        Verknüpfung mit Sport-Apps & 7,4 & 2,9 \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
+
+\begin{table}[htbp]
+    \centering
+    \caption{Rangfolge und Mittelwerte der gewünschten App-Funktionen bei den weiblichen Befragten}
+    \label{tab:funktion_weiblich}
+    \begin{tabularx}{\textwidth}{X r r} % X für Text, r für Zahlen
+        \toprule
+        \textbf{Funktion} & \textbf{Durchschnitt} & \textbf{Standardabweichung} \\
+        \midrule
+                
+        Notfall-SOS-Funktion & 2,6 & 2,5   \\
+        
+        Live-Tracking & 4,0 & 2,4 \\
+        
+        Offline Karten & 4,5 & 2,4 \\
+        
+        Routen-Check & 5,1 & 2,3 \\
+        
+        Lauter Alarmton über Lautsprecher & 5,2 & 2,7 \\
+        
+        Wetter- und Gefahrenwarnungen & 5,8 & 2,5 \\
+        
+        Geplante Überwachung & 6,6 & 2,4 \\
+        
+        Virtuelle Begleitung & 6,7 & 2,4 \\
+        
+        Automatischer Check-in/Check-out & 6,9 & 2,2 \\
+        
+        Verknüpfung mit Sport-Apps & 7,6 & 2,8 \\
+
+
+        \bottomrule
+    \end{tabularx}
+\end{table}
+
+\begin{table}[htbp]
+    \centering
+    \caption{ Rangfolge und Mittelwerte der gewünschten App-Funktionen bei den männlichen Befragten }
+    \label{tab:funktion_männlich}
+    \begin{tabularx}{\textwidth}{X r r} % X für Text, r für Zahlen
+        \toprule
+        \textbf{Funktion} & \textbf{Durchschnitt} & \textbf{Standardabweichung} \\
+        \midrule
+                
+        Notfall-SOS-Funktion & 2,6 & 2,7 \\
+        
+        Offline-Karten & 3,9 & 2,6 \\
+        
+        Live-Tracking & 4,4 & 2,5  \\
+        
+        Wetter- und Gefahrenwarnungen & 4,5 & 2,7 \\
+        
+        Routen-Check & 5,1 & 2,2 \\
+
+        Geplante Überwachung & 6,7 & 2,3 \\
+        
+        Lauter Alarmton über Lautsprecher & 6,7 & 2,4 \\
+        
+        Automatischer Check-in/Check-out & 6,9 & 2,0 \\
+        
+        Verknüpfung mit Sport-Apps & 7,0 & 3,0 \\
+        
+        Virtuelle Begleitung & 7,2 & 2,3 \\
+
+        \bottomrule
+    \end{tabularx}
+\end{table}
+
+\begin{table}[htbp]
+    \centering
+    \caption{Rangfolge und Mittelwerte der gewünschten App-Funktionen bei Befragten der "`Gruppe unsicher"'}
+    \label{tab:funktion_unsicher}
+    \begin{tabularx}{\textwidth}{X r r} % X für Text, r für Zahlen
+        \toprule
+        \textbf{Funktion} & \textbf{Durchschnitt} & \textbf{Standardabweichung} \\
+        \midrule
+                
+        Notfall-SOS-Funktion & 2,7 & 2,8 \\
+        
+        Live-Tracking & 3,6 & 2,2 \\
+        
+        Lauter Alarmton über Lautsprecher & 4,9 & 2,8 \\
+        
+        Routen-Check & 5,0 & 2,3 \\
+        
+        Offline-Karten & 5,2 & 2,7 \\
+        
+        Geplante Überwachung & 6,3 & 2,4 \\
+        
+        Wetter- und Gefahrenwarnungen & 6,5 & 2,3 \\
+        
+        Automatischer Check-in/Check-out & 6,7 & 2,6 \\
+        
+        Virtuelle Begleitung & 6,7 & 2,6 \\
+        
+        Verknüpfung mit Sport-Apps & 7,4 & 2,9 \\
+
+        \bottomrule
+    \end{tabularx}
+\end{table}
+
+\normalsize 
+\renewcommand{\arraystretch}{1}
+
+\FloatBarrier
+
+\subsubsection{Wahrscheinlichkeit der Nutzung}
+Die Wahrscheinlichkeit, dass die Befragten eine Sicherheits-App für
+Outdoor-Aktivitäten nutzen würden, wurde mittels einer fünfstufigen Likert-Skala erfasst. Die Likert-Skala umfasste die Antwortmöglichkeiten "`auf keinen Fall”, "`wahrscheinlich nicht”, "`vielleicht”, "`wahrscheinlich”, "`auf jeden Fall”. Die Ergebnisse zeigen eine klare Tendenz zur App-Nutzung (siehe Abbildung 2-15). 77,7\% der Befragten gaben an, die App wahrscheinlich (30,4\%), vielleicht (33\%) oder auf jeden Fall (14,3\%) nutzen zu wollen. Lediglich 5,4\% würden die App auf keinen Fall nutzen. Frauen (siehe Abbildung 2-16) zeigen eine doppelt so hohe App-Nutzungsbereitschaft wie Männer (siehe Abbildung 2-17). Insgesamt zeigt die "`Gruppe unsicher"' (siehe Abbildung 2-18) die mit Abstand höchste und die männlichen Befragten die niedrigste Nutzungsbereitschaft.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.73\textwidth]{figures/Verteilung_Nutzungswahrscheinlichkeit_Outdoor.png} 
+    \caption{Häufigkeitsverteilung Wahrscheinlichkeit der App-Nutzung bei allen Befragten (eigene Darstellung)} 
+    \label{fig:nutzung}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.73\textwidth]{figures/Verteilung_Nutzungswahrscheinlichkeit_weiblich_Outdoor.png} 
+    \caption{Häufigkeitsverteilung Wahrscheinlichkeit der App-Nutzung bei den weiblichen Befragten (eigene Darstellung)} 
+    \label{fig:nutzung_weiblich}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.73\textwidth]{figures/Verteilung_Nutzungswahrscheinlichkeit_maennlich_Outdoor.png} 
+    \caption{Häufigkeitsverteilung Wahrscheinlichkeit der App-Nutzung bei den männlichen Befragten (eigene Darstellung)} 
+    \label{fig:nutzung_männlich}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.73\textwidth]{figures/Verteilung_Nutzungswahrscheinlichkeit_unsicher_Outdoor.png} 
+    \caption{Häufigkeitsverteilung Wahrscheinlichkeit der App-Nutzung bei der "`Gruppe unsicher” (eigene Darstellung)} 
+    \label{fig:nutzung_unsicher}
+\end{figure}
+
+\subsubsection{Gründe gegen eine Nutzung}
+Befragte, welche zuvor die Nutzung der Sicherheits-App innerhalb als 	"`wahrscheinlich nicht"' oder "`auf keinen Fall"' beurteilt hatten, erhielten eine optionale Zusatzfrage. Diese Zusatzfrage ermöglichte es, mittels Freitexteingabe die exakten Gründe zu ermitteln, die gegen eine App-Nutzung sprechen. Die 24 Antworten ergaben u. a. folgende 			Ablehnungsgründe:
+
+\begin{itemize}
+    \item kein Bedarf (u. a. weil nie allein unterwegs)
+    \item Wahrnehmung bereits vorhandener Sicherheit
+    \item Wunsch nach einer Auszeit vom Smartphone (z. B. um die Natur zu genießen und nicht ständig an das Gerät denken zu müssen)
+    \item Existenz von Alternativlösungen mit ähnlichen Funktionen (wie Standortverfolgung, akustische Signale über Schlüsselanhänger o. Ä.)
+    \item Datenschutzbedenken und Ablehnung der Vorstellung, überwacht zu werden
+\end{itemize}
+
+\subsection{Anregungen/Wünsche für die App-Entwicklung}
+Am Ende der Umfrage hatten die Teilnehmenden optional die Möglichkeit, über ein Freitextfeld Anmerkungen und Vorschläge einzureichen, die im Rahmen des Entwicklungsprozesses berücksichtigt werden sollten. Die genannten Vorschläge für zusätzliche Funktionen und Inhalte umfassen u.a. :
+
+\begin{itemize}
+    \item Angabe von Defibrillatoren (Defis), Erste-Hilfe-Stationen und Toiletten
+    \item Energie- und datenschonender Betrieb
+    \item Stoß- und Fallerkennung
+    \item Hilferuferkennung
+    \item Tipps für den Notfall, falls Besorgnis besteht
+    \item Telefonservice mit einer echten Person zur Beruhigung
+    \item Werbefreiheit
+    \item Schnelle und unkomplizierte Notrufauslösung, z.B. durch mehrmaliges Drücken des Powerbuttons
+    \item Hinweis, die App lediglich als Zusatz zu nutzen und sich nicht blind darauf zu verlassen, um unvorsichtiges Verhalten zu vermeiden
+    \item Die Angehörigen sollten die App nicht selbst installieren müssen
+    \item Datenschutz
+\end{itemize}
+
+\subsection{Zusammenfassung und Interpretation der Ergebnisse}
+Die Ergebnisse der Online-Umfrage deuten darauf hin, dass die primäre Zielgruppe der App im jüngeren Erwachsenenalter liegt. Die 18- bis 29-Jährigen bilden mit über 42\% die größte Altersgruppe. Zudem beträgt das Durchschnittsalter 36 Jahre. Die Geschlechterverteilung ist mit einem weiblichen Anteil von rund 66\% unausgewogen. Die Nutzenden sind generell sehr aktiv und führen wöchentlich meist Spaziergänge oder Radtouren durch. 92,7\% der Befragten haben ihr Smartphone immer oder meistens bei Outdoor-Aktivitäten dabei. 
+
+Hinsichtlich der Sicherheitswahrnehmung fühlt sich zwar die Mehrheit der Befragten selten oder nie unsicher, jedoch besteht ein signifikanter Geschlechterunterschied. Frauen geben deutlich häufiger an, sich manchmal oder meistens unsicher zu fühlen als Männer. Die größten Sorgen der Nutzenden betreffen Belästigungen oder Überfälle, gefolgt von Unfällen und dem Alleinsein in entlegenen Gebieten. Auch hier äußern Frauen signifikant mehr Sorge vor Belästigung und Alleinsein, während Männer hauptsächlich Verletzungen und Stürze fürchten. 
+Zu den wichtigsten UX-Faktoren für eine App generell zählen "`Übersichtlichkeit”, "`Intuitive Bedienung"', "`Nützliche Funktionen"', "`Leistung \& Zuverlässigkeit"' sowie "`Sicherheit \& Datenschutz"'. Hinsichtlich der Funktionen einer Sicherheits-App wird die Notfall-SOS-Funktion als die wichtigste Funktion eingestuft. Frauen und die als unsicher eingestufte Gruppe priorisieren Funktionen der aktiven Überwachung wie Live-Tracking und akustische Alarme deutlich höher. Männer hingegen legen mehr Wert auf Autonomie und Informationsfunktionen wie Offline-Karten und Gefahrenwarnungen.
+
+Die Nutzungsbereitschaft für eine Sicherheits-App ist mit fast 78\% der Befragten, die eine Nutzung in Betracht ziehen, hoch. Diese Bereitschaft ist bei Frauen und der Gruppe Unsicher am höchsten, während Männer die geringste Bereitschaft zeigen. Hauptgründe für eine Nicht-Nutzung sind u. a. mangelnder Bedarf, der Wunsch nach einer bewussten Auszeit vom Smartphone, Datenschutzbedenken sowie das Gefühl, überwacht zu werden. Als zusätzlich gewünschte Funktionen wurden u. a. die Anzeige von Defibrillatoren, ein energieschonender Betrieb, ein Telefonservice mit einer echten Person zur Beruhigung sowie eine schnelle Notrufauslösung durch mehrmaliges Drücken des Powerbuttons genannt. 
+Aus den Ergebnissen der Umfrage geht hervor, dass es einen grundsätzlichen Bedarf an einer Sicherheits-App für Outdoor-Aktivitäten gibt und diese auch realistisch häufig genutzt werden würde. Für die nachfolgende App-Konzeption ist ein klarer Fokus auf eine junge, weibliche Zielgruppe sowie deren zentrale Anforderungen entscheidend. Besonders wichtig sind eine übersichtliche Gestaltung und eine intuitive Bedienung. Die App soll als unaufdringlicher Begleiter wirken, der diskret im Hintergrund den Status überwacht und in kritischen Momenten sofort eingreifen kann. Dafür sind robuste Hintergrundfunktionen wie Sturz- und Hilferuferkennung, eine äußerst einfache Notrufauslösung und eine verlässliche Offline-Nutzung wichtig.  Funktional sollte der Schwerpunkt vor allem auf einer Notfall-SOS-Funktion liegen. Ergänzend sind ein Routen-Check in Verbindung mit aktuellen Wetter- und Gefahrenwarnungen sowie Offline-Karten und Live-Tracking sinnvoll. Ebenso zentral sind die Leistungsfähigkeit und Zuverlässigkeit der App sowie die Einhaltung von Sicherheits- und Datenschutzstandards. 

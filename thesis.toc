@@ -1,25 +1,37 @@
 \babel@toc {ngerman}{}\relax 
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Analyse}{2}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Marktanalyse/Benchmarking}{2}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Stakeholderanalyse}{2}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Online-Umfrage}{5}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Ziele, Methodik und Fragebogen}{5}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Auswertung und zentrale Ergebnisse}{6}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.1}Stakeholderanalyse}{2}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Online-Umfrage}{5}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Ziele, Methodik und Fragebogen}{5}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Auswertung und zentrale Ergebnisse}{6}{subsection.2.2.2}%
 \contentsline {subsubsection}{\nonumberline Geschlecht}{6}{subsubsection*.3}%
 \contentsline {subsubsection}{\nonumberline Alter}{6}{subsubsection*.5}%
-\contentsline {subsubsection}{\nonumberline Durchführung von Outdoor-Aktivitäten}{6}{subsubsection*.7}%
-\contentsline {chapter}{\numberline {3}Automatische Analyse}{8}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Axe DevTools}{8}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Wave}{9}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Google Lighthouse}{10}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Fazit automatische Analysetools}{11}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Manuelle Analyse}{12}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Evaluation}{13}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Einführungsprozess}{14}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Fazit und Ausblick}{15}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Literatur}{16}{chapter.8}%
+\contentsline {subsubsection}{\nonumberline Durchführung von Outdoor-Aktivitäten}{7}{subsubsection*.7}%
+\contentsline {subsubsection}{\nonumberline Smartphone-Mitnahme bei Outdoor-Aktivitäten}{10}{subsubsection*.9}%
+\contentsline {subsubsection}{\nonumberline Unsicherheit/Gefährdung bei Outdoor-Aktivitäten}{11}{subsubsection*.11}%
+\contentsline {subsubsection}{\nonumberline Größte Sorge bei der Durchführung von Outdoor-Aktivitäten}{13}{subsubsection*.13}%
+\contentsline {subsubsection}{\nonumberline Aktuelle Sicherheitsmaßnahmen}{15}{subsubsection*.15}%
+\contentsline {subsubsection}{\nonumberline Relevante Faktoren für App-Nutzung allgemein}{15}{subsubsection*.17}%
+\contentsline {subsubsection}{\nonumberline Gewünschte Funktionen für die Sicherheits-App}{16}{subsubsection*.19}%
+\contentsline {subsubsection}{\nonumberline Wahrscheinlichkeit der Nutzung}{19}{subsubsection*.21}%
+\contentsline {subsubsection}{\nonumberline Gründe gegen eine Nutzung}{22}{subsubsection*.23}%
+\contentsline {subsection}{\numberline {2.2.3}Anregungen/Wünsche für die App-Entwicklung}{22}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Zusammenfassung und Interpretation der Ergebnisse}{23}{subsection.2.2.4}%
+\contentsline {chapter}{\numberline {3}Konzeption}{25}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Personas}{25}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Persona 1: Laura Stahl}{25}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Persona 2: Rosa Leitner}{26}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Persona 3: Markus Schneider}{27}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}Szenarien}{28}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}IST-Szenario Rosa Leitner}{28}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}IST-Szenario für Persona Markus Schneider}{29}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Aufgabenanalyse-Matrix}{29}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Entwicklung}{30}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Evaluation}{31}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Einführungsprozess}{32}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Fazit und Ausblick}{33}{chapter.7}%
 \def \@chapapp {\appendixname }
-\contentsline {chapter}{\numberline {A}Abbildungsverzeichnis}{17}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Tabellenverzeichnis}{18}{appendix.B}%
+\contentsline {chapter}{\numberline {A}Abbildungsverzeichnis}{34}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Tabellenverzeichnis}{36}{appendix.B}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
