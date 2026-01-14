@@ -1,1 +1,187 @@
+% \chapter{Entwicklung}
+
+% Die Enwicklung des Prototypen erfolgte in dem Designprogramm Figma. Ziel war es einen vollständigen Klick-Through Prototypen zu entwerfen, welcher die in der Analyse (\autoref{sec:analyse}) gesammelten Ergebnisse Anhand des Szenarios von Rasa Leitner (\autoref{sec:rosa}) darstellt. Im folgenden werden einige Designentscheidungen anhand von Ausschnitten vorgestellt und erläutert. Der Gesamte Prototyp ist in Form von Bildern im \autoref{app:prototyp} oder als Interaktiver Click-Dummy unter folgndem Figma Link zu finden: 
+
+% Diese Arbeit und der nachfolgende Abschnitt kann als erste Iteration des Human-Centered-Design Prozesses betrachtet werden. Aus Zeitgründen konnten keine zwischenevaluationen gemacht werden und weitere Verfeinerungen am Prototypen vorgenommen werden. Verbesserungsmaßnahmen sind textuell in \autoref{Optimierungsmaßnahmen} zu finden.
+
+% \section{Interface Design}
+
+% In \autoref{Abbildung 1} ist der Startbildschirm zu sehen, nachdem man sich erfolgreich in die App eingeloggt hat. Aufgrund des Feedbacks einiger Umfrageteilnehmer, die bedenken äußerten noch eine weitere App Pflegen zu müssen und dem starken Wunsch Übersichtlichkeit und Intuitive bedienung wurde das menü so simpel wie möglich gehalten. Es beschränkt sich auf 3 Menüpunkte, wovon einer ausschließlich für das Profil, dass Funktionalitäten abdeckt (Namenseinstellungen, Logout, etc.), die nicht Primär in einer ersten Version des Prototypen gebraucht wurden. Aus diesem Grund sind die Inhalte hier nicht weiter erläutert, können aber im \autoref{app:prototyp} auf \autoref{Abbildung} eingesehen werden.
+
+% Der Zweite Navigationspunkt ist die Karte. Diese ist standardmäßig nach dem einloggen geöffnet und markiert somit den Einstieegspunkt (nach Login) in die Anwendung. Hier sind Funktionen wie das Starten einer freien Aktivität, einer Aktivität ohne bestimmtes Ziel oder die Auswahl einer vorgegeben Route möglich. Es wurde sich dazu entschieden beide Szenarien abzudecken, da es sowohl einen beachtlichen Anteil an Spatiergängern (\autoref{}) die ohne genaue Route unterwegs sind, wie aber ebenfalls auch eine große Menge an Läufern, Radfahrer, Wanderer und Nordic Walking. 
+
+% Der Dritte menüpunkt sind die Kontakte. Die Kontakte sind gewissermaßen eine Grundvoraussetzung für unsere App, da ohne ein Festlegen der Personen(-Gruppen) die im Notfall wirklich kontaktiert wird, die App nicht funktionieren kann. Aus diesem Grund wird in \autoref{subsec:kontakte} zunächst die Kontakteinstellungen erläutert, auch wenn die Karte das Hauptelement der Anwendung darstellt.
+
+
+% \newpage
+% \subsection{Menüpunkt Kontakte}
+% \label{subsec:kontakte}
+
+% Der Menüpunkt Kontakte ermöglicht es seine Kontakteinstellungen vorzunehmen. Dazu kann über den "`+"' Button (\autoref{fig:kontakte1} A) eine Auswahl (innerhalb eines BottomSheet) geöffnet werden. Hier hat der Nutzer die Möglichkeit einen Kontakt (\autoref{fig:kontakte1} B) oder eine neue Gruppe (\autoref{fig:kontakte1} C) zu erstellen.
+
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=0.75\textwidth]{figures/kontakte1.png} 
+%     \caption{(1) Interface Design Kontakte (eigene Darstellung)} 
+%     \label{fig:kontakte1}
+% \end{figure}
+
+% In \autoref{fig:kontakte2} ist dann der weitere Verlauf einer Gruppenerstellung exemplarisch dargestellt. Zunächst müssen die Gruppenmitgliedern, bestehend aus den vorhandenen Kontakten angelegt werden. Diese können einfach mit einem Klick auf die Checkbox (A) der Gruppe hinzugefügt werden. Der "`\rightarrow"' Button (B) geht zur nächsten Seite der Gruppeneinstellung über. Hier werden neben dem Namen und dem Gruppenbild wichtige Einschränkungen gesetzt. Orientiert an den beiden meistgewünschten Funktionen (\autoref{tab:funktion_alle}) lassen sich hier die Einstellungen für die Notfall-SOS-Funktion (C) und das Livetracking (D) vornehmen. Abschließend kann der Nutzer speichern (E) und gelangt auf die Kontaktübersicht zurück
+
+% \begin{figure}[htpb]
+%     \centering
+%     \includegraphics[width=0.75\textwidth]{figures/kontakte2.png} 
+%     \caption{(2) Interface Design Kontakte (eigene Darstellung)} 
+%     \label{fig:kontakte2}
+% \end{figure}
+
+% \FloatBarrier
+
 \chapter{Entwicklung}
+
+Die Entwicklung des Prototypen erfolgte mit dem Designtool Figma. Ziel war es, einen vollständigen Click-Through-Prototypen zu entwerfen, welcher die in der Analyse (\autoref{sec:analyse}) gesammelten Ergebnisse anhand des Szenarios von Rasa Leitner (\autoref{sec:rosa}) visualisiert. Im Folgenden werden zentrale Designentscheidungen anhand von Ausschnitten vorgestellt und erläutert. Der gesamte Prototyp ist in Form von Abbildungen im \autoref{app:prototyp} oder als interaktiver Click-Dummy unter \href{https://www.figma.com/proto/53XTqxIe44G4VFfawLqOeE/Sicherheits-App?page-id=0%3A1&node-id=264-980&p=f&viewport=489%2C506%2C0.03&t=3yXCPO3bjuepzZg7-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=264%3A980}{\textcolor{blue}{\uline{diesem Figma-Link}}} einsehbar (Weitere Infos zu Figma in \autoref{app:link}).
+
+Diese Arbeit und der nachfolgende Abschnitt sind als erste Iteration des Human-Centered-Design-Prozesses (HCD) zu betrachten. Aus Zeitgründen konnten keine Zwischenevaluationen durchgeführt oder weitere Optimierungen am Prototypen vollzogen werden. Entsprechende Optimierungsmaßnahmen sind textuell in \autoref{sec:optimierungsmaßnahme} aufgeführt.
+
+\section{Interface Design}
+
+In \autoref{fig:profil} ist die Profilübersicht dargestellt. Aufgrund des Feedbacks der Umfrageteilnehmenden, welche die Sorge äußerten, eine weitere Anwendung pflegen zu müssen, sowie dem Wunsch nach Übersichtlichkeit und intuitiver Bedienung (\autoref{fig:faktoren}), wurde das Menü minimalistisch gestaltet. Es beschränkt sich auf drei Menüpunkte. Einer dieser Punkte umfasst das Profil (C), welches Funktionalitäten wie Namenseinstellungen oder den Logout abdeckt. Da diese Funktionen für die erste Version des Prototypen nicht primär relevant sind, werden sie im Folgenden nicht weiter im Detail erläutert, sondern lediglich in \autoref{fig:profil} visuell abgebildet.
+
+Die Karte (B) stellt die Standardansicht nach dem Login dar und fungiert somit als primärer Einstiegspunkt in die Anwendung. Hier sind Funktionen wie das Starten einer freien Aktivität ohne festes Ziel sowie die Auswahl einer vorgegebenen Route möglich. Die Entscheidung, beide Szenarien abzudecken, basiert auf der Analyse. Diese zeigt neben einem beachtlichen Anteil an Spazierengehenden eine kumuliert große Gruppe von Laufenden, Radfahrenden und Walkenden, die potenziell von einer Routenplanung profitieren (\autoref{fig:laufen} - \autoref{fig:wandern}).
+
+
+Der dritte Menüpunkt umfasst die Kontakte (C). Diese sind eine Grundvoraussetzung für die Anwendung, da ohne die Definition von Personen oder Gruppen, die im Notfall kontaktiert werden, die Kernfunktionalität der App nicht gewährleistet werden kann. Aus diesem Grund werden in \autoref{subsec:kontakte} zunächst die Kontakteinstellungen erläutert, obwohl die Karte das zentrale Element der Anwendung darstellt.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{figures/profil.png} 
+    \caption{Interface Design Profil: Übersichtsseite (eigene Darstellung)} 
+    \label{fig:profil}
+\end{figure}
+
+\newpage
+\subsection{Menüpunkt Kontakte}
+\label{subsec:kontakte}
+
+Der Menüpunkt Kontakte ermöglicht die Konfiguration der Kontakteinstellungen. Über die "`+"'-Schaltfläche (\autoref{fig:kontakte1} A) kann eine Auswahl innerhalb eines Bottom-Sheets geöffnet werden. Hier haben Nutzende die Möglichkeit, einen neuen Kontakt (\autoref{fig:kontakte1} B) oder eine neue Gruppe (\autoref{fig:kontakte1} C) anzulegen.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{figures/kontakte1.png} 
+    \caption{Interface Design Kontakte: Hinzufügen-Dialog (eigene Darstellung)} 
+    \label{fig:kontakte1}
+\end{figure}
+
+In \autoref{fig:kontakte2} wird der weitere Verlauf einer Gruppenerstellung exemplarisch dargestellt. Zunächst werden die Gruppenmitglieder aus den vorhandenen Kontakten ausgewählt. Diese können durch das Markieren der Checkbox (A) hinzugefügt werden. Die Schaltfläche mit dem Pfeilsymbol (B) führt zur nächsten Seite der Gruppeneinstellungen. Hier werden neben dem Namen und dem Gruppenbild wichtige Berechtigungen gesetzt. Orientiert an den am häufigsten gewünschten Funktionen (\autoref{tab:funktion_alle}) lassen sich hier die Einstellungen für die Notfall-SOS-Funktion (C) und das Livetracking (D) vornehmen. Abschließend kann der Prozess über die Speichern-Schaltfläche (E) abgeschlossen werden, woraufhin die Nutzenden zur Kontaktübersicht zurückgeleitet werden.
+
+\begin{figure}[htpb]
+    \centering
+    \includegraphics[width=0.75\textwidth]{figures/kontakte2.png} 
+    \caption{Interface Design Kontakte: Gruppeneinstellungen (eigene Darstellung)} 
+    \label{fig:kontakte2}
+\end{figure}
+
+\FloatBarrier
+
+
+% \subsection{Menüpunkt Karte}
+% Wie bereits erwähnt stellt die Karte den Hauptteil der Anwendung dar. Unter diesem navigationspunkt sind die zentralen Funktionen wie das Starten von Navigationsrouten zu finden.  
+
+% Bevor die zentrale Notfall-SOS-Funktion erläutert wird möchte ich noch kurz die Karte erklären. Es wird der aktuelle Standort des Nutzers angezeigt. Ansonsten lässt sich die Karte navigieren wie anderen Gängige Kartentools wie Google Maps. Zusätzlich gibt es kleine Markierungen auf der Karte, die einen Gefahr oder eine Warnung anzeigen. Durch Klick auf diese Hinweise wird eine Detailansicht der Gefahr/Warnung angezeigt. 
+
+% Um eine Route ohne Ziel zu starten muss einfach nur die Schaltfläche "`Weg starten"' betätigt werden. Anschließend öffnet sich eine Art Routen Modus. Ab diesem Zeitpunkt ist das Zentrale Menü wie die Suche nicht mehr sichtbar, da der Benutzer sich ab diesem Zeitpunkt in einer Aktivität befindet und nicht mehr Einstellungen vornehmen möchte. Dieses wurde bereits vorher erledigt. Zu diesem Zeitpunkt ist es zentral möglichst schnell Hilfe rufen zu können, wenn diese benötigt wird. Dazu wurde ein großer prominenter Button mittig platziert um einen Hilferuf auszulösen. Um den Button nicht versehntlich zu betätigen muss er 3 Sekunden gedrückt werden. Anschließend wird ein Hilferuf ausgelöst (\autoref{fig:hilferuf}). Der Screen für die Ansicht eines Hilferufs ist in Abbildung X zu sehen. Es gibt informationen über den genauen Standort, falls diese zur Weitergabe an Dritte benötigt werden. Ebenfalls ist ersichtlich, welche Kontaktgruppen, passend zu den vorgenommenen Einstellungen, benachrichtigt wurden. Abschließend gibt es die Möglichkeit offizielee Stelle wie Polizei und Feuerwehr anzurufen und zur Karte zurückzukehren.
+
+% Das Live Tracking kann im Routen Modus gestartet werden über einen extra dafür bestimmten Button. Dieser zeigt eine Info darüber an, ob das Tracking aktuell aktiv ist. Mit Klick darauf gibt es einige Informationen über den aktuellen Standort und man kann das Lvetracking aktivieren. An derselben Stelle ist es möglich das Tracking auch wieder zu deaktivieren.
+
+% Für das Starten einer Route kann im Menüpunkt Karte die Suchleiste betätigt werden. Durch eine einfach textsuche werden passende Routenvorschläge präsentiert. Die Route kann vorab geprüft werden, ob sie zu den Sicherheitsbedürfnissen des Nutzers passt. Anschließend kann die Route gestartet werden und es öffnet sich erneut der Aktivitäten-Modus. Diesmal mit dem Unterschied, dass eine Route auf der Karte angezeigt wird und wie typisch bei Navigationsapps eine Wegbeschreibung über die nächsten Schritte angezeigt wird.
+
+% Ein weiteres Feature sind die Gefahrenhinweise die den Nutzer haptisch per Vibration, über den Lautsprecher und über entsprechende hinweise auf dem Screen warnen. Der zugehörige Screen ist in Abbildung X zu sehen. Anstatt der Wegbeschreibung ist die Gefahr/Warnung zu sehen. 
+
+% Sollte trotz Vorab routen Check und Warnhinweisen auf einem Weg ein Unfall passieren, sorgt eine eingebaute Sturzekennung dafür, dass automatisch ein Timer ausgelöst wird. Dieser läuft für 30 Sekunden lang und löst einen Hilferuf aus, wenn dieser nicht aktiv abgebrochen wirkt. Das sorgt dafür dass auch bei Gefährlichen Situationen z.B. Ohnmächtigkeit noch Hilfe kontaktiert werden kann.
+
+% Hier ist die überarbeitete Fassung deines Textes. Ich habe die Grammatik korrigiert, die Formulierungen professionalisiert und die Gendernorm „Nutzende“ konsequent angewendet. Zudem wurden, wie gewünscht, keine Doppelpunkte und keine Gedankenstriche verwendet.
+
+\subsection{Menüpunkt Karte}
+Die Karte stellt die zentrale Komponente der Anwendung dar. In diesem Navigationspunkt befinden sich die wesentlichen Funktionen wie das Starten von Aktivitäten, das Live-Tracking, der Routen Check und eine Sturzerkennung.
+
+Innerhalb der Kartenansicht wird der aktuelle Standort der Nutzenden visualisiert (D). Die Navigation innerhalb der Karte orientiert sich an gängigen Kartentools und sollte Nutzenden bekannt sein. Zusätzlich weist die Anwendung durch Markierungen auf der Karte auf Gefahren oder Warnungen hin (B und C). Durch das Auswählen dieser Hinweise öffnet sich eine Detailansicht mit weiterführenden Informationen zur jeweiligen Warnung.
+
+\begin{figure}[htpb]
+    \centering
+    \includegraphics[width=0.75\textwidth]{figures/karte.png} 
+    \caption{Interface Design Karte: Standardansicht (eigene Darstellung)} 
+    \label{fig:karte}
+\end{figure}
+
+Zum Start einer Aktivität ohne fest definiertes Ziel wird die Schaltfläche "`Weg starten"' betätigt (\autoref{fig:karte} E). Daraufhin wechselt die Anwendung in einen speziellen Aktivitäts-Modus (\autoref{fig:aktivität_frei}). In diesem Zustand sind das Hauptmenü sowie die Suchfunktion ausgeblendet, da der Fokus auf der laufenden Aktivität liegt und notwendige Konfigurationen bereits im Vorfeld abgeschlossen wurden. Um in Notfällen eine schnelle Alarmierung zu gewährleisten, wurde eine prominente Schaltfläche mittig im Interface platziert (D). Zur Vermeidung von Fehlauslösungen muss diese drei Sekunden lang gedrückt werden, bevor ein Hilferuf erfolgt. Zusätzlich werden Informationen über die aktuelle Aktivität (C) und die in der Nähe befindlich Gefahren gefahren (B) und Warnungen (A) visualisiert.
+
+Die entsprechende Ansicht für einen ausgelösten Hilferuf ist in \autoref{fig:aktivität_frei} dargestellt. Diese Ansicht bietet Informationen zum exakten Standort (F) und zeigt auf, welche Kontaktgruppen gemäß den getroffenen Voreinstellungen benachrichtigt wurden (G). Zusätzlich besteht die Möglichkeit, offizielle Stellen wie die Polizei oder Feuerwehr (H) direkt zu kontaktieren oder zur Kartenansicht zurückzukehren.
+
+\begin{figure}[htpb]
+    \centering
+    \includegraphics[width=0.75\textwidth]{figures/aktivität_frei.png} 
+    \caption{Interface Design Karte: Freier Aktivitäts-Modus \& Notfall-SOS-Funktion (eigene Darstellung)} 
+    \label{fig:aktivität_frei}
+\end{figure}
+\newpage
+
+Das Live Tracking kann innerhalb des Aktivitätsmodus über eine spezifische Schaltfläche gestartet werden (\autoref{fig:aktivität_frei} E). Diese Schaltfläche gibt Auskunft darüber, ob die Funktion aktuell aktiv ist. Nach der Betätigung werden Informationen zum aktuellen Standort angezeigt (\autoref{fig:liveTracking} A) und das Live Tracking kann aktiviert werden (\autoref{fig:liveTracking} B). Auf dieselbe weise wie es aktiviert ist, lässt sich das Live-Tracking auch wieder ausschalten. Dieser Screen wurde nicht zusätzlich visualisiert.
+
+\begin{figure}[htpb]
+    \centering
+    \includegraphics[width=0.75\textwidth]{figures/liveTracking.png} 
+    \caption{Interface Design Karte: Live-Tracking (eigene Darstellung)} 
+    \label{fig:liveTracking}
+\end{figure}
+
+\newpage
+
+Für das Starten einer vordefinierten Route kann die Suchleiste innerhalb der Kartenansicht genutzt werden (\autoref{fig:karte} A). Über eine Textsuche werden passende Routenvorschläge präsentiert (\autoref{fig:routen} A). Die gewählte Route lässt sich vorab prüfen, um sicherzustellen, dass sie den individuellen Sicherheitsbedürfnissen der Nutzenden entspricht. Es werden bereits vorab mögliche Gefahren auf der Strecke veranschaulicht (\autoref{fig:routen} B) Nach dem Start der Navigation wird der Verlauf auf der Karte visualisiert und durch eine Wegbeschreibung der nächsten Schritte ergänzt (\autoref{fig:aktivität_route}).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{figures/routen.png} 
+    \caption{Interface Design Karte: Routen-Check (eigene Darstellung)} 
+    \label{fig:routen}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{figures/aktivität_route.png} 
+    \caption{Interface Design Karte: Routen Aktivitäts-Modus (eigene Darstellung)} 
+    \label{fig:aktivität_route}
+\end{figure}
+
+Ein weiteres Merkmal sind Gefahrenhinweise, welche die Nutzenden haptisch durch Vibration sowie akustisch über den Lautsprecher und visuell auf dem Display warnen. Die zugehörige Darstellung ist in \autoref{fig:gefahrenhinweis} ersichtlich. In diesem Fall wird anstelle der Wegbeschreibung die spezifische Warnung auf dem Bildschirm angezeigt (A).
+
+Sollte es trotz der Sicherheitsvorkehrungen zu einem Unfall kommen, löst die integrierte Sturzerkennung automatisch einen Timer aus (\autoref{fig:gefahrenhinweis} B). Dieser läuft über einen Zeitraum von 30 Sekunden und führt nach Ablauf zu einem automatischen Hilferuf, sofern der Vorgang nicht aktiv abgebrochen wird. Diese Funktion stellt sicher, dass auch in kritischen Situationen wie bei einer Bewusstlosigkeit eine Alarmierung erfolgt.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{figures/gefahr.png} 
+    \caption{Interface Design Karte: Warnhinweis \& Sturzerkennung (eigene Darstellung)} 
+    \label{fig:gefahrenhinweis}
+\end{figure}
+
+
+\section{Prototyping}
+Die Erstellung des Prototypen erfolgte ebenfalls direkt innerhalb der Designsoftware Figma. Dabei wurden die integrierten Funktionen genutzt, um die einzelnen Ansichten miteinander zu verknüpfen. Da das Ziel ein funktionaler Click-Through-Prototyp war, beschränkte sich die Umsetzung auf drei wesentliche Techniken.
+
+\begin{itemize} 
+    \item Klickevents erlauben die Navigation zu weiteren Ansichten durch die Auswahl spezifischer Oberflächenelemente 
+    \item Timeouts ermöglichen das automatische Auslösen von Aktionen nach einer definierten Zeitspanne ohne eine manuelle Eingabe
+    \item Wischgesten lösen Aktionen durch Bewegungen in eine festgelegte Richtung aus
+\end{itemize}
+
+Ein Großteil der Navigation innerhalb der Anwendung basiert auf Klickevents. Sämtliche Schaltflächen wie beispielsweise die Funktion zum Starten eines Weges (\autoref{fig:karte}) wurden mit diesen Interaktionen versehen.
+
+Mithilfe von Timeouts wurden Ereignisse simuliert, die unabhängig von einer aktiven Eingabe der Nutzenden eintreten. Sobald eine bestimmte Ansicht aufgerufen wurde, erfolgte nach einer Verzögerung von fünf Sekunden eine automatisierte Aktion. Dies betraf unter anderem die Anzeige von Gefahrenhinweisen (\autoref{fig:gefahrenhinweis} A) sowie das Starten des Timers (\autoref{fig:gefahrenhinweis} B). Zusätzlich wurde der Timer durch zeitliche Verzögerungen animiert, um die Funktionalität während der Präsentation realitätsnah darzustellen.
+
+Zur Steigerung der Detailtreue wurde zudem die Möglichkeit implementiert, das Bottom Sheet im Aktivitätsmodus (\autoref{fig:prototyp}) manuell zu verkleinern. Diese Funktion erlaubt es den Nutzenden bei Bedarf einen größeren Ausschnitt der Karte einzusehen.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.65\textwidth]{figures/prototyping.png} 
+    \caption{Prototyping: Drag \& Drop (eigene Darstellung)} 
+    \label{fig:prototyp}
+\end{figure}
