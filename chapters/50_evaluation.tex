@@ -1,12 +1,12 @@
 \chapter{Evaluation}
-In diesem Kapitel wird die Evaluation des Prototyps erläutert. Die gewonnenen Erkenntnisse aus den Benutzertests dienen der künftigen Optimierung der Sicherheits-App. Diese ist jedoch nicht mehr Teil dieser Projektarbeit.
+In diesem Kapitel wird die Evaluation des Prototyps beschrieben. Die aus den Benutzertests gewonnenen Erkenntnisse dienen der künftigen Optimierung der Sicherheits-App. Sie ist jedoch nicht mehr Teil dieser Projektarbeit.
 
 \section{Benutzertests}
 \subsection{Methodik und Durchführung}
-Im Rahmen dieser Arbeit wurden Benutzertests unter Verwendung der Langversion des standardisierten „User ExperienceQuestionnaire“ (UEQ) mit 26 Items durchgeführt \autocite{ueqonline}.
-Die Auswertung der Fragebögen erfolgte mit dem zugehörigen UEQ Data Analysis Tool \autocite{ueqonline}. Die integrierte Benchmark-Funktion ermöglichte dabei einen direkten Vergleich der gemessenen User Experience der Sicherheits-App mit den Ergebnissen etablierter Produkte aus der Benchmark-Datenbank.
+Im Rahmen der Evaluation der Sicherheits-App wurden Benutzertests unter Verwendung der Langversion des standardisierten „User ExperienceQuestionnaire“ (UEQ) mit 26 Items durchgeführt \autocite{ueqonline}.
+Die Auswertung der Fragebögen erfolgte mit dem zugehörigen UEQ Data Analysis Tool \autocite{ueqdatatool}. Die integrierte Benchmark-Funktion ermöglichte dabei einen direkten Vergleich der gemessenen User Experience der Sicherheits-App mit den Ergebnissen etablierter Produkte aus der Benchmark-Datenbank.
 
-Zur Durchführung der Benutzertests absolvierten die Testpersonen unter Beobachtung fünf realistische Nutzungsszenarien (siehe \autoref{app:evaluation}, \autoref{fig:leitfaden_test_1}). Die Bearbeitung dieser Testaufgaben erfolgte sequenziell unter Anwendung der Methode des „Lauten Denkens“. In einer abschließenden Feedbackrunde wurden die Teilnehmenden zu ihren positiven Eindrücken, Kritikpunkten und Verbesserungsvorschlägen sowie zur künftigen Nutzungswahrscheinlichkeit befragt. Zudem sollten sie aus einer Liste von zehn Namensvorschlägen einen Favoriten für die Anwendung auswählen \autoref{app:evaluation}, \autoref{fig:leitfaden_test_2}). Bislang hatte diese noch den Arbeitstitel „Sicherheits-App für Outdooraktivitäten“.
+Zur Durchführung der Benutzertests absolvierten die Testpersonen unter Beobachtung fünf Testaufgaben (siehe \autoref{app:evaluation}, \autoref{fig:leitfaden_test_1}). Die Bearbeitung dieser Aufgaben erfolgte sequenziell unter Anwendung der Methode des „Lauten Denkens“. In einer abschließenden Feedbackrunde wurden die Teilnehmenden zu ihren positiven Eindrücken, Kritikpunkten, Verbesserungsvorschlägen und ihrer voraussichtlichen Nutzungsabsicht befragt. Zudem sollten sie aus einer Liste von zehn Namensvorschlägen einen Favoriten für die Anwendung auswählen \autoref{app:evaluation}, \autoref{fig:leitfaden_test_2}). Bislang hatte diese noch den Arbeitstitel „Sicherheits-App für Outdooraktivitäten“.
 
 Die Benutzertests begannen mit einer Erläuterung des Ablaufs und der Klärung offener Fragen. Die Bearbeitungszeit war unbegrenzt, beanspruchte jedoch im Durchschnitt 20 bis 30 Minuten. Nach Abschluss der Aufgaben füllten die Probanden den UEQ-Fragebogen (siehe \autoref{app:evaluation}, \autoref{fig:ueq_fragenbogen}) aus. Die Durchführung erfolgte ohne Aufzeichnung sowohl remote als auch in Präsenz. Über einen Figma-Link konnten die Testpersonen den Prototyp auf ihrem privaten Rechner oder einem bereitgestellten Gerät aufrufen. Auf Tests direkt am Smartphone wurde verzichtet, um Darstellungsfehler durch verschiedene Displaygrößen zu vermeiden, da der Figma-Prototyp lediglich auf das iPhone 16 ausgelegt ist.
 
@@ -18,6 +18,30 @@ Im Zeitraum vom 31. Dezember 2025 bis zum 12. Januar 2026 wurden neun Benutzerte
 \begin{itemize}
     \item \textbf{Alter:} Die Testpersonen sind zwischen 21 und 74 Jahre alt. Das Durchschnittsalter liegt bei 43,22 Jahren.
     \item \textbf{Geschlecht:} Die Testgruppe setzt sich aus sechs weiblichen (66,67 \%) und drei männlichen Personen (33,3 \%) zusammen.
+    \item \textbf{UEQ-Auswertung:} \autoref{fig:ueq_items} zeigt die Mittelwerte der 26 UEQ-Items. Werte zwischen −0,8 und 0,8 gelten als neutral, über 0,8 als positiv und unter −0,8 als negativ. Zwar reicht die Skala von −3 bis +3, in der Praxis treten wegen Mittelwertbildung und Antworttendenzen meist nur Werte zwischen −2 und +2 auf \autocite{ueqdatatool}. Die Ergebnisse fallen für die Sicherheits-App äußerst positiv aus, da fast alle Items deutlich über der Neutralitätsschwelle von 0,8 liegen. Dies lässt auf eine hohe User Experience schließen. Besonders die Items „angenehm” (2,7), „gut” (2,4) und „unterstützend” (2,3) stechen heraus und zeugen von hoher Attraktivität sowie pragmatischer Qualität. Die Testpersonen fühlten sich zudem sicher (2,2) und gut unterstützt. Lediglich das Item „originell“ fällt mit einem Wert von 0,6 in den neutralen Bereich ab. Dies könnte darauf hindeuten, dass die App zwar funktional überzeugt, jedoch als eher konventionell wahrgenommen wird. Für eine Sicherheits-App im Outdoor-Bereich dürfte dieser Aspekt zugunsten der Vertrautheit und Verlässlichkeit jedoch vernachlässigbar sein.
+    \begin{figure}[htpb]
+        \centering
+        \includegraphics[width=\textwidth]{figures/ueg_items-result}
+        \caption{Übersicht der Mittelwerte der 26 Items des UEQ \autocite{ueqdatatool}}.
+        \label{fig:ueq_items}
+    \end{figure}
+Wie \autoref{fig:UEQ_Scales} verdeutlicht, wurde die Anwendung in allen sechs Dimensionen von den Testpersonen sehr positiv bewertet. Die Mittelwerte liegen durchweg über der Neutralitätsschwelle von 0,8, was eine hohe Nutzerakzeptanz belegt. Die „Attraktivität“ erzielte mit 2,04 den Spitzenwert, gefolgt von der „Steuerbarkeit“ (1,94) und der „Effizienz“ (1,75). Selbst die Dimension „Originalität“, welche mit 0,97 den niedrigsten Wert aufweist, liegt noch im positiven Bereich.
+
+\begin{figure}[htpb]
+ \centering
+  \includegraphics[width=\textwidth]{figures/UEQ_Scales}
+   \caption{Mittelwerte der sechs Dimensionen \autocite{ueqdatatool}}.
+\label{fig:UEQ_Scales}
+\end{figure}
+    Die sechs Dimensionen des UEQ lassen sich in pragmatische Qualität (Durchschaubarkeit, Effizienz, Steuerbarkeit) und hedonische Qualität (Stimulation, Originalität) unterteilen. \autoref{fig:UEQ_Quality} stellt die jeweiligen Mittelwerte dieser beiden Aspekte dar. Der Faktor Attraktivität fungiert dabei als übergeordneter Gesamteindruck des Produkts in Bezug auf seine allgemeine Akzeptanz [51]. Mit einem Mittelwert von 1,72 wird die pragmatische Qualität höher bewertet als die hedonische Qualität (1,24). Dies zeigt, dass der Prototyp insbesondere seine funktionalen Anforderungen sehr gut erfüllt.
+\begin{figure}[htpb]
+    \centering
+    \includegraphics[width=\textwidth]{figures/UEQ_Quality}
+    \caption{Mittelwerte für pragmatische und hedonische Qualität \autocite{ueqdatatool}}.
+    \label{fig:UEQ_Quality}
+\end{figure}
 \end{itemize}
+
+Im Folgenden werden die Ergebnisse des Benutzertests nach Testaufgaben (siehe \autoref{app:evaluation}, \autoref{fig:leitfaden_test_1} geordnet zusammengefasst.
 
 \section{Optimierungsmaßnahmen}
