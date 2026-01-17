@@ -1,7 +1,9 @@
 \chapter{Evaluation}
 In diesem Kapitel wird die Evaluation des Prototyps beschrieben. Die aus den Benutzertests gewonnenen Erkenntnisse dienen der künftigen Optimierung der Sicherheits-App. Sie ist jedoch nicht mehr Teil dieser Projektarbeit.
 
+
 \section{Benutzertests}
+
 \subsection{Methodik und Durchführung}
 Im Rahmen der Evaluation der Sicherheits-App wurden Benutzertests unter Verwendung der Langversion des standardisierten „User ExperienceQuestionnaire“ (UEQ) mit 26 Items durchgeführt \autocite{ueqonline}.
 Die Auswertung der Fragebögen erfolgte mit dem zugehörigen UEQ Data Analysis Tool \autocite{ueqdatatool}. Die integrierte Benchmark-Funktion ermöglichte dabei einen direkten Vergleich der gemessenen User Experience der Sicherheits-App mit den Ergebnissen etablierter Produkte aus der Benchmark-Datenbank.
@@ -25,29 +27,29 @@ Im Zeitraum vom 31. Dezember 2025 bis zum 12. Januar 2026 wurden neun Benutzerte
         \caption{Übersicht der Mittelwerte der 26 Items des UEQ \autocite{ueqdatatool}}.
         \label{fig:ueq_items}
     \end{figure}
-Wie \autoref{fig:UEQ_Scales} verdeutlicht, wurde die Anwendung in allen sechs Dimensionen von den Testpersonen sehr positiv bewertet. Die Mittelwerte liegen durchweg über der Neutralitätsschwelle von 0,8, was eine hohe Nutzerakzeptanz belegt. Die „Attraktivität“ erzielte mit 2,04 den Spitzenwert, gefolgt von der „Steuerbarkeit“ (1,94) und der „Effizienz“ (1,75). Selbst die Dimension „Originalität“, welche mit 0,97 den niedrigsten Wert aufweist, liegt noch im positiven Bereich.
+    Wie \autoref{fig:UEQ_Scales} verdeutlicht, wurde die Anwendung in allen sechs Dimensionen von den Testpersonen sehr positiv bewertet. Die Mittelwerte liegen durchweg über der Neutralitätsschwelle von 0,8, was eine hohe Nutzerakzeptanz belegt. Die „Attraktivität“ erzielte mit 2,04 den Spitzenwert, gefolgt von der „Steuerbarkeit“ (1,94) und der „Effizienz“ (1,75). Selbst die Dimension „Originalität“, welche mit 0,97 den niedrigsten Wert aufweist, liegt noch im positiven Bereich.
 
-\begin{figure}[htpb]
- \centering
-  \includegraphics[width=\textwidth]{figures/UEQ_Scales}
-   \caption{Mittelwerte der sechs Dimensionen \autocite{ueqdatatool}}.
-\label{fig:UEQ_Scales}
-\end{figure}
+    \begin{figure}[htpb]
+        \centering
+        \includegraphics[width=\textwidth]{figures/UEQ_Scales}
+        \caption{Mittelwerte der sechs Dimensionen \autocite{ueqdatatool}}.
+        \label{fig:UEQ_Scales}
+    \end{figure}
     Die sechs Dimensionen des UEQ lassen sich in pragmatische Qualität (Durchschaubarkeit, Effizienz, Steuerbarkeit) und hedonische Qualität (Stimulation, Originalität) unterteilen. \autoref{fig:UEQ_Quality} stellt die jeweiligen Mittelwerte dieser beiden Aspekte dar. Der Faktor Attraktivität fungiert dabei als übergeordneter Gesamteindruck des Produkts in Bezug auf seine allgemeine Akzeptanz [51]. Mit einem Mittelwert von 1,72 wird die pragmatische Qualität höher bewertet als die hedonische Qualität (1,24). Dies zeigt, dass der Prototyp insbesondere seine funktionalen Anforderungen sehr gut erfüllt.
-\begin{figure}[htpb]
-    \centering
-    \includegraphics[width=\textwidth]{figures/UEQ_Quality}
-    \caption{Mittelwerte für pragmatische und hedonische Qualität \autocite{ueqdatatool}}.
-    \label{fig:UEQ_Quality}
-\end{figure}
+    \begin{figure}[htpb]
+        \centering
+        \includegraphics[width=\textwidth]{figures/UEQ_Quality}
+        \caption{Mittelwerte für pragmatische und hedonische Qualität \autocite{ueqdatatool}}.
+        \label{fig:UEQ_Quality}
+    \end{figure}
     \item \textbf{Vergleich zum Benchmark}: Im Vergleich zum UEQ-Benchmark-Datensatz schneidet der App-Prototyp in allen sechs Dimensionen überdurchschnittlich ab. Wie in \autoref{fig:ueq_benchmark} dargestellt, erzielen die Dimensionen „Attraktivität“ und „Steuerbarkeit“ mit „sehr gut“ die beste Bewertung. In diesen beiden Dimensionen liegt der App-Prototyp damit im Bereich der besten 10 \% Vergleichsprodukte.
 \end{itemize}
-    \item \begin{figure}[htpb]
-              \centering
-              \includegraphics[width=\textwidth]{figures/ueq_benchmark}
-              \caption{Mittelwerte des Prototyps im Vergleich zum Benchmark\autocite{ueqdatatool}}.
-              \label{fig:ueq_benchmark}
-    \end{figure}
+\item \begin{figure}[htpb]
+          \centering
+          \includegraphics[width=\textwidth]{figures/ueq_benchmark}
+          \caption{Mittelwerte des Prototyps im Vergleich zum Benchmark\autocite{ueqdatatool}}.
+          \label{fig:ueq_benchmark}
+\end{figure}
 
 Im Folgenden werden die Ergebnisse des Benutzertests nach Testaufgaben (siehe \autoref{app:evaluation}, \autoref{fig:leitfaden_test_1} geordnet zusammengefasst.
 
@@ -55,9 +57,9 @@ Im Folgenden werden die Ergebnisse des Benutzertests nach Testaufgaben (siehe \a
     \item \textbf{Testaufgabe 1 „Login-Prozess“:} Alle neun Testpersonen bewältigten die erste Aufgabe selbstständig und ohne externe Hilfe. Das Vorgehen beim Login verlief bei allen Teilnehmenden routiniert.
     \item \textbf{Testaufgabe 2 „Neue Gruppe anlegen“:} Obwohl alle neun Testpersonen die Aufgabe ohne externe Hilfe erfolgreich abschlossen, zeigten sich Schwierigkeiten bei der visuellen Wahrnehmung des Bedienelements. Sechs Personen übersahen zu Beginn das Plus-Zeichen und suchten kurzzeitig nach der entsprechenden Funktionalität. Die Testpersonen gaben u. a. an, dass die Platzierung nicht intuitiv sei, da sie das Element als Overlay in der unteren rechten Ecke erwartet hätten.
     \item \textbf{Testaufgabe 3 „Aktivität starten“:}
-Sämtliche Testpersonen konnten auch diese Aufgabe ohne Hilfe erfolgreich abschließen. Trotz der erfolgreichen Durchführung äußerten einige Teilnehmende Unklarheiten darüber, wer genau im Notfall benachrichtigt wird und an welcher Stelle die Notfallkontakte verwaltet oder geändert werden können.
-Ein kritisches Bedienungsmuster zeigte sich beim Versuch, Gefahrenhinweise zu deaktivieren. Hierbei wurde mehrfach versehentlich die gesamte Aktivität beendet. Zudem herrschte Unsicherheit bezüglich der Reichweite der Benachrichtigung, insbesondere ob neben privaten Kontakten auch offizielle Rettungskräfte wie Polizei oder Feuerwehr alarmiert werden. Ergänzend merkte eine Testperson an, dass bei einer Aktivität ohne aktives Live-Tracking nach dem Absetzen eines Hilferufs automatisch ein Tracking gestartet werden sollte, damit die aktuelle Position für Angehörige unmittelbar einsehbar bleibt.
-Darüber hinaus wurde der Wunsch geäußert, die Sturzerkennung als dauerhafte Hintergrundfunktion anzubieten, ohne zuvor explizit eine Route starten zu müssen.
+    Sämtliche Testpersonen konnten auch diese Aufgabe ohne Hilfe erfolgreich abschließen. Trotz der erfolgreichen Durchführung äußerten einige Teilnehmende Unklarheiten darüber, wer genau im Notfall benachrichtigt wird und an welcher Stelle die Notfallkontakte verwaltet oder geändert werden können.
+    Ein kritisches Bedienungsmuster zeigte sich beim Versuch, Gefahrenhinweise zu deaktivieren. Hierbei wurde mehrfach versehentlich die gesamte Aktivität beendet. Zudem herrschte Unsicherheit bezüglich der Reichweite der Benachrichtigung, insbesondere ob neben privaten Kontakten auch offizielle Rettungskräfte wie Polizei oder Feuerwehr alarmiert werden. Ergänzend merkte eine Testperson an, dass bei einer Aktivität ohne aktives Live-Tracking nach dem Absetzen eines Hilferufs automatisch ein Tracking gestartet werden sollte, damit die aktuelle Position für Angehörige unmittelbar einsehbar bleibt.
+    Darüber hinaus wurde der Wunsch geäußert, die Sturzerkennung als dauerhafte Hintergrundfunktion anzubieten, ohne zuvor explizit eine Route starten zu müssen.
 
     \item \textbf{Testaufgabe 4 „Route suchen & Live-Tracking starten“:} Auch die vierte Testaufgabe absolvierten alle neun Probanden ohne fremde Hilfe erfolgreich. Eine Testperson merkte an, dass im Bereich der Routensuche alle Detail-Einträge anklickbar sein sollten und nicht nur das Label „Details“. Hinsichtlich der automatischen Sturzerkennung wurde der Wunsch nach einer noch prägnanteren visuellen Darstellung geäußert, um im Gefahrenmoment die Aufmerksamkeit stärker zu forcieren. Während das einklappbare Sheet positiv bewertet wurde, empfand eine Testperson die dauerhafte Einblendung der Buttons zum Beenden der Aktivität und zum Live-Tracking als störend.
     \item \textbf {Testaufgabe 5 „Logout-Prozess“:} Analog zum Login verlief auch die abschließende Testaufgabe für alle neun Teilnehmenden erfolgreich. Der Logout-Prozess wurde von den Probanden routiniert und ohne jegliche fremde Hilfe durchgeführt.
@@ -65,27 +67,49 @@ Darüber hinaus wurde der Wunsch geäußert, die Sturzerkennung als dauerhafte H
 \end{itemize}
 In der anschließenden Feedbackrunde wurden folgende Rückmeldungen gegeben:
 \begin{itemize}
-\item \textbf{Positive Eindrücke:} Die Testpersonen hoben besonders das „cleane“ und übersichtliche Design sowie die intuitive Menüführung mit nur drei Hauptoptionen hervor. Die Kartenansicht und der „Seamless Mode“ wurden als modern und ausgereift empfunden. Besonders positiv bewertet wurden:
-\begin{itemize}
-\item Sicherheitsfunktionen: Die Unterteilung der Gefahrenhinweise (farblich in Rot/Grün kodiert), die präzisen Warnmeldungen vor Gefahrenstellen und die sinnvolle Integration der Sturzerkennung.
-\item Notfall-Management: Der präsent platzierte Hilfe-Button sowie der automatisierte Hilferuf an vorab definierte Kontakte, was eine schnelle Interaktion im Ernstfall ermöglicht.
-\item Bedienbarkeit: Die großen Schaltflächen und die reduzierte Navigation, die teilweise positiv an bekannte Systeme wie Google Maps erinnerte.
-\end{itemize}
-\item \textbf{Kritikpunkte:}
-Trotz des positiven Gesamteindrucks wurden Optimierungspotenziale identifiziert. Einige Teilnehmende wünschten sich zu Beginn eine kurze Einführung (Onboarding), da die Navigation beim ersten Nutzen teilweise als schwierig empfunden wurde. Weitere Kritikpunkte bzw. Verbesserungsvorschläge waren (soweit nicht bereits zuvor im Zusammenhang mit den Testaufgaben aufgeführt):
+    \item \textbf{Positive Eindrücke:} Die Testpersonen hoben besonders das „cleane“ und übersichtliche Design sowie die intuitive Menüführung mit nur drei Hauptoptionen hervor. Die Kartenansicht und der „Seamless Mode“ wurden als modern und ausgereift empfunden. Besonders positiv bewertet wurden:
+    \begin{itemize}
+        \item Sicherheitsfunktionen: Die Unterteilung der Gefahrenhinweise (farblich in Rot/Grün kodiert), die präzisen Warnmeldungen vor Gefahrenstellen und die sinnvolle Integration der Sturzerkennung.
+        \item Notfall-Management: Der präsent platzierte Hilfe-Button sowie der automatisierte Hilferuf an vorab definierte Kontakte, was eine schnelle Interaktion im Ernstfall ermöglicht.
+        \item Bedienbarkeit: Die großen Schaltflächen und die reduzierte Navigation, die teilweise positiv an bekannte Systeme wie Google Maps erinnerte.
+    \end{itemize}
+    \item \textbf{Kritikpunkte:}
+    Trotz des positiven Gesamteindrucks wurden Optimierungspotenziale identifiziert. Einige Teilnehmende wünschten sich zu Beginn eine kurze Einführung (Onboarding), da die Navigation beim ersten Nutzen teilweise als schwierig empfunden wurde. Weitere Kritikpunkte bzw. Verbesserungsvorschläge waren (soweit nicht bereits zuvor im Zusammenhang mit den Testaufgaben aufgeführt):
 
-\begin{itemize}
-\item {System-Feedback:} Ein verstärktes Feedback nach der Ausführung von Aktionen innerhalb der App.
-\item {Funktionsumfang:} Die Möglichkeit, Sicherheitshinweise selbst anzulegen oder eine Community-Funktion (analog zu Unfall- oder Blitzermeldungen) zu integrieren.
+    \begin{itemize}
+        \item {System-Feedback:} Ein verstärktes Feedback nach der Ausführung von Aktionen innerhalb der App.
+        \item {Funktionsumfang:} Die Möglichkeit, Sicherheitshinweise selbst anzulegen oder eine Community-Funktion (analog zu Unfall- oder Blitzermeldungen) zu integrieren.
+    \end{itemize}
+    \item \textbf{Nutzungswahrscheinlichkeit:} Die Wahrscheinlichkeit einer zukünftigen Nutzung wurde auf einer Skala von 1 („auf keinen Fall”) bis 5 („auf jeden Fall”) mit durchschnittlich 3,56 bewertet. Dies spricht für ein solides Interesse an der Sicherheits-App. Mehrere Testpersonen gaben jedoch an, dass ihre endgültige Entscheidung stark von der Preisstruktur (kostenlos vs. kostenpflichtig) abhängt. Dieser Faktor wurde bei der aktuellen Bewertung explizit ausgeklammert werdem sollte.
+    \item \textbf{App-Name:} Bei der Auswahl aus zehn Namensvorschlägen kristallisierten sich zwei Favoriten heraus:
+    \begin{itemize}
+        \item {„MoveSafe”:} 3 Stimmen plus 2 anteilige Präferenzen
+        \item {„MoveGuard”:}
+        2 Stimmen plus 1 anteilige Präferenz)
+    \end{itemize}
+    Die weiteren Stimmen verteilten sich auf „Sicherio” und „SafeMotion”. Eine Testperson gab zu bedenken, dass für eine ältere Zielgruppe ein deutscher Name möglicherweise zugänglicher wäre als eine englische Bezeichnung.
 \end{itemize}
-\item \textbf{Nutzungswahrscheinlichkeit:} Die Wahrscheinlichkeit einer zukünftigen Nutzung wurde auf einer Skala von 1 („auf keinen Fall”) bis 5 („auf jeden Fall”) mit durchschnittlich 3,56 bewertet. Dies spricht für ein solides Interesse an der Sicherheits-App. Mehrere Testpersonen gaben jedoch an, dass ihre endgültige Entscheidung stark von der Preisstruktur (kostenlos vs. kostenpflichtig) abhängt. Dieser Faktor wurde bei der aktuellen Bewertung explizit ausgeklammert werdem sollte.
-\item \textbf{App-Name:} Bei der Auswahl aus zehn Namensvorschlägen kristallisierten sich zwei Favoriten heraus:
-\begin{itemize}
-\item {„MoveSafe”:} 3 Stimmen plus 2 anteilige Präferenzen
-\item {„MoveGuard”:}
-2 Stimmen plus 1 anteilige Präferenz)
-\end{itemize}
-Die weiteren Stimmen verteilten sich auf „Sicherio” und „SafeMotion”. Eine Testperson gab zu bedenken, dass für eine ältere Zielgruppe ein deutscher Name möglicherweise zugänglicher wäre als eine englische Bezeichnung.
-\end{itemize}
+
 
 \section{Optimierungsmaßnahmen}
+Basierend auf den durchgeführten Nutzertests lassen sich 13 Optimierungsmaßnahmen ableiten. Die folgenden Lösungsvorschläge zeigen auf, wie diese umgesetzt werden können:
+
+\begin{itemize}
+    \item \textbf{Platzierung der Hinzufügen-Funktion unter „Kontakte“:}
+    Obwohl alle Testpersonen die Aufgabe erfolgreich abgeschlossen haben, zeigte sich eine eingeschränkte Auffindbarkeit der Funktion „Neue Gruppe“ bzw. „Neuen Kontakt anlegen“ (siehe \autoref{app:entwicklung}, \autoref{fig:kontakte1}). Ein in unmittelbarer Nähe zum Inhaltsbereich oder als Floating Action Button in der unteren rechten Ecke platziertes Bedienelement könnte hier Abhilfe schaffen. Eine solche prominentere und kontextuell eindeutigere Platzierung würde die visuelle Auffindbarkeit sowie die intuitive Bedienbarkeit deutlich verbessern.
+    \item \textbf{Trennung kritischer Aktionen:} Das vollständige Beenden der gesamten Aktivität beim Deaktivieren von Gefahrenhinweisen \autoref{app:entwicklung}, \autoref{fig:gefahrenhinweis}) deutet auf eine unklare Trennung von Funktionen hin. Kritische Aktionen wie „Aktivität beenden“ könnten visuell und räumlich noch klarer von weniger folgenreichen Einstellungen getrennt werden. Außerdem könnten sie durch eine Bestätigungsabfrage abgesichert werden.
+    \item \textbf{Klarheit über Notfallbenachrichtigungen:} Es sollte deutlich kommuniziert werden, wer im Notfall benachrichtigt wird (z. B. private Kontakte, Rettungsdienste oder beide). Eine kurze, gut sichtbare Erläuterung im Hilferuf-Dialog („Diese Kontakte werden benachrichtigt“, \autoref{app:entwicklung}, \autoref{fig:aktivität_frei}) sowie ein direkter Zugang zur Verwaltung der Notfallkontakte würden Unsicherheiten reduzieren.
+    \item \textbf{Automatisches Live-Tracking im Notfall:} Wird ein Hilferuf ohne aktives Live-Tracking ausgelöst \autoref{app:entwicklung}, \autoref{fig:aktivität_frei}), sollte automatisch ein Tracking gestartet werden, um Angehörigen unmittelbar die aktuelle Position zur Verfügung zu stellen.
+    \item \textbf{Entkoppelung der Sturzerkennung von Aktivitäten:}
+    Die Sturzerkennung (\autoref{app:entwicklung}, \autoref{fig:gefahrenhinweis}) könnte als dauerhafte Hintergrundfunktion angeboten werden, unabhängig vom Start einer Aktivität. Dies würde die wahrgenommene Sicherheit erhöhen und die Funktion auch in spontanen oder ungeplanten Situationen nutzbar machen.
+    \item \textbf{Eindeutige Kennzeichnung der Alarmreichweite:}
+    Die Reichweite eines Hilferufs (\autoref{app:entwicklung}, \autoref{fig:gefahrenhinweis}) sollte explizit dargestellt werden. Zum Beispiel durch klare Beschriftungen oder Icons („Benachrichtigt private Kontakte“ oder „Notruf 112 wird ausgelöst“).
+    \item \textbf{Ganzflächige Interaktion bei Detail-Ansichten:} Anstatt nur das Label „Details“ innerhalb der Sicherheitswarnungen klickbar zu machen (siehe \autoref{app:entwicklung}, \autoref{fig:aktivität_frei}), sollte der gesamte Container bzw. das entsprechende Feld als interaktives Element gestaltet werden, un Fehlklicks auf nicht-reaktive Flächen zu verhindern.
+    \item \textbf{Optimierung der Informationshierarchie in der Routenliste:} Um die Auffindbarkeit zu verbessern, könnten die Warnhinweise (z. B. „2 Warnungen“) in der Listenansicht (siehe \autoref{app:entwicklung}, \autoref{fig:routen}), noch deutlicher von den reinen Wegdaten abgegrenzt werden. So könnten Nutzende die Sicherheitsrelevanz einer Route auf den ersten Blick erfassen.
+    \item \textbf{Button-Einblendung Live-Tracking-Sheet:} Da die dauerhafte Anzeige der Steuerungselemente („Beenden“, „Live-Tracking“, siehe \autoref{app:entwicklung}, \autoref{fig:gefahrenhinweis}) als störend empfunden wurde, sollten diese Buttons nur bei Bedarf eingeblendet werden. Eine mögliche Lösung wäre, sie erst sichtbar zu machen, wenn Nutzende das Sheet aktiv nach oben ziehen, um den Fokus während der Bewegung primär auf die Karte zu lenken.
+    \item \textbf{Visuelle Intensivierung der Sturzerkennung:}
+    Um im Ernstfall die Aufmerksamkeit zu erhöhen, könnte die Sturzerkennung (siehe \autoref{app:entwicklung}, \autoref{fig:gefahrenhinweis}) durch ein vollflächiges visuelles Feedback (z. B. ein pulsierender roter Hintergrund oder kontrastreichere Animationen des Timers) verstärkt werden. Das aktuelle Design mit dem weißen Hintergrund wirkt für eine Notfallsituation noch etwas zu ruhig.
+    \item \textbf{Einführung eines Onboardings:} Eine kurze, schrittweise Einführung beim erstmaligen Start der App könnte die Navigation erklären und Nutzenden den Einstieg erleichtern.
+    \item \textbf{Verbesserung des System-Feedbacks:} Durch klarere visuelle oder haptische Rückmeldungen nach der Ausführung von Aktionen (z. B. Bestätigungen, Statusanzeigen) ließe sich die Transparenz des Systemzustands der App noch erhöhen.
+    \item \textbf{Erweiterung des Funktionsumfangs:} Die Möglichkeit, eigene Sicherheitshinweise zu erstellen sowie die Integration einer Community-Funktion zur gemeinsamen Meldung von Gefahrenstellen könnten den App-Nutzen und die Aktualität sicherheitsrelevanter Informationen deutlich steigern.
+\end{itemize}
