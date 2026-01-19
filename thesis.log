@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.1.12)  19 JAN 2026 13:33
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.1.12)  19 JAN 2026 13:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1498,15 +1498,20 @@ Overfull \hbox (7.2156pt too wide) in paragraph at lines 42--43
 
 [27]
 
-[28])
+[28]
+File: figures/Aufgabenanalysematrix.jpg Graphic file (type bmp)
+<figures/Aufgabenanalysematrix.jpg>
+)
 
 [29]
+
+[30]
 \openout2 = `chapters/40_entwicklung.aux'.
 
  (./chapters/40_entwicklung.tex
 chapter 4.
 
-LaTeX Warning: Reference `sec:optimierungsmaßnahme' on page 30 undefined on input line 44.
+LaTeX Warning: Reference `sec:optimierungsmaßnahme' on page 31 undefined on input line 44.
 
 
 Overfull \hbox (2.80109pt too wide) in paragraph at lines 44--45
@@ -1515,7 +1520,7 @@ Overfull \hbox (2.80109pt too wide) in paragraph at lines 44--45
 
 
 
-[30
+[31
 
 
 
@@ -1526,58 +1531,58 @@ File: figures/profil.png Graphic file (type bmp)
 <figures/profil.png>
 
 
-[31]
+[32]
 File: figures/kontakte1.png Graphic file (type bmp)
 <figures/kontakte1.png>
 
 
-[32]
+[33]
 File: figures/kontakte2.png Graphic file (type bmp)
 <figures/kontakte2.png>
 
 
-[33]
+[34]
 File: figures/karte.png Graphic file (type bmp)
 <figures/karte.png>
 
 
-[34]
+[35]
 File: figures/aktivität_frei.png Graphic file (type bmp)
 <figures/aktivität_frei.png>
 
 
-[35]
+[36]
 File: figures/liveTracking.png Graphic file (type bmp)
 <figures/liveTracking.png>
 
 
-[36]
+[37]
 File: figures/routen.png Graphic file (type bmp)
 <figures/routen.png>
 File: figures/aktivität_route.png Graphic file (type bmp)
 <figures/aktivität_route.png>
 
 
-[37]
+[38]
 File: figures/gefahr.png Graphic file (type bmp)
 <figures/gefahr.png>
 
 
-[38]
-
 [39]
+
+[40]
 File: figures/prototyping.png Graphic file (type bmp)
 <figures/prototyping.png>
 )
 
-[40]
+[41]
 \openout2 = `chapters/50_evaluation.aux'.
 
  (./chapters/50_evaluation.tex
 chapter 5.
 )
 
-[41
+[42
 
 
 
@@ -1592,7 +1597,7 @@ File: figures/Checkliste.png Graphic file (type bmp)
 <figures/Checkliste.png>
 
 
-[42
+[43
 
 
 
@@ -1605,24 +1610,24 @@ Overfull \hbox (8.64508pt too wide) in paragraph at lines 16--17
 
 
 
-[43]
-
 [44]
 
 [45]
 
-[46])
+[46]
 
-[47]
+[47])
 
 [48]
+
+[49]
 \openout2 = `chapters/70_fazitAusblick.aux'.
 
  (./chapters/70_fazitAusblick.tex
 chapter 7.
 )
 
-[49
+[50
 
 
 
@@ -1665,7 +1670,7 @@ Overfull \hbox (63.56123pt too wide) in paragraph at lines 6--1
 
 
 
-[50
+[51
 
 
 
@@ -1684,18 +1689,18 @@ File: figures/login_anhang.png Graphic file (type bmp)
 <figures/login_anhang.png>
 )
 
-[51
+[52
 
 
 ]
-
-[52]
 
 [53]
 
 [54]
 
 [55]
+
+[56]
 chapter C.
 Package tocbasic Info: character protrusion at lof deactivated on input line 195.
 (./thesis.lof
@@ -1705,7 +1710,7 @@ Overfull \hbox (3.84116pt too wide) in paragraph at lines 10--10
 
 
 
-[56
+[57
 
 
 ]
@@ -1724,7 +1729,7 @@ Overfull \hbox (1.65315pt too wide) in paragraph at lines 21--21
 
 
 
-[57]
+[58]
 chapter D.
 Package tocbasic Info: character protrusion at lot deactivated on input line 196.
 (./thesis.lot)
@@ -1733,7 +1738,7 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 196
 
 
 
-[58
+[59
 
 
 ] (./thesis.aux (./chapters/10_introduction.aux) (./chapters/20_analyse.aux) (./chapters/30_konzeption.aux) (./chapters/40_entwicklung.aux) (./chapters/50_evaluation.aux) (./chapters/60_Einführungsprozess.aux) (./chapters/70_fazitAusblick.aux))
@@ -1752,12 +1757,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47981 strings out of 473832
- 1005971 string characters out of 5729481
- 2220208 words of memory out of 5000000
- 70289 multiletter control sequences out of 15000+600000
+ 47992 strings out of 473832
+ 1006324 string characters out of 5729481
+ 2220299 words of memory out of 5000000
+ 70298 multiletter control sequences out of 15000+600000
  566286 words of font info for 68 fonts, out of 8000000 for 9000
  1350 hyphenation exceptions out of 8191
  110i,10n,131p,11020b,7355s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on thesis.xdv (61 pages, 669792 bytes).
+Output written on thesis.xdv (62 pages, 675080 bytes).

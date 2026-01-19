@@ -574,6 +574,9 @@ OUTPUT chapters/30_konzeption.aux
 INPUT ./chapters/30_konzeption.tex
 INPUT ./chapters/30_konzeption.tex
 INPUT chapters/30_konzeption.tex
+INPUT ./figures/Aufgabenanalysematrix.jpg
+INPUT ./figures/Aufgabenanalysematrix.jpg
+INPUT ./figures/Aufgabenanalysematrix.jpg
 INPUT ./chapters/40_entwicklung.tex
 INPUT ./chapters/40_entwicklung.tex
 OUTPUT chapters/40_entwicklung.aux
