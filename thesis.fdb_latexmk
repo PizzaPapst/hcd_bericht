@@ -1,16 +1,16 @@
 # Fdb version 4
-["biber thesis"] 1768776300.97762 "thesis.bcf" "thesis.bbl" "thesis" 1768778383.24909 0
-  "thesis.bcf" 1768778323.60517 133942 c6661da6d0f633bbe3b9c706d804b5da "xelatex"
+["biber thesis"] 1768776300.97762 "thesis.bcf" "thesis.bbl" "thesis" 1768826049.54078 0
+  "thesis.bcf" 1768825989.44336 133942 c6661da6d0f633bbe3b9c706d804b5da "xelatex"
   (generated)
   "thesis.bbl"
   "thesis.blg"
   (rewritten before read)
-["xdvipdfmx"] 1768778323.69324 "thesis.xdv" "thesis.pdf" "thesis" 1768778383.25163 0
-  "thesis.xdv" 1768778323.60631 665956 3d3b4740cd84edfa6b4e179dfd88bbe7 "xelatex"
+["xdvipdfmx"] 1768825989.53423 "thesis.xdv" "thesis.pdf" "thesis" 1768826049.54337 0
+  "thesis.xdv" 1768825989.44444 669792 0df16d9256a5fb6e6271f448a4a2f32c "xelatex"
   (generated)
   "thesis.pdf"
   (rewritten before read)
-["xelatex"] 1768778320.8336 "/Users/Monique/Documents/Studium/Master/BHT/Semester 3/Human Centered Design/Repository (LaTex Dokument)/hcd_bericht/thesis.tex" "thesis.xdv" "thesis" 1768778383.24914 0
+["xelatex"] 1768825986.76354 "/Users/Monique/Documents/Studium/Master/BHT/Semester 3/Human Centered Design/Repository (LaTex Dokument)/hcd_bericht/thesis.tex" "thesis.xdv" "thesis" 1768826049.54085 0
   "/Users/Monique/Documents/Studium/Master/BHT/Semester 3/Human Centered Design/Repository (LaTex Dokument)/hcd_bericht/thesis.tex" 1768410214.79125 6944 8c4c4c4ff0de150a2d37516f6ebce735 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -238,23 +238,24 @@
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "appendices/link.tex" 1768410214.21003 452 6d9daf4f753dc25892259f94b4f21d96 ""
   "appendices/prototyp.tex" 1768410214.21021 1237 d6618bb43345e968a1eddb546a3b542c ""
-  "chapters/10_introduction.aux" 1768778323.08942 4684 e0eca7602ee42995ff2b940523cfaa55 "xelatex"
+  "chapters/10_introduction.aux" 1768825988.9041 4684 e0eca7602ee42995ff2b940523cfaa55 "xelatex"
   "chapters/10_introduction.tex" 1768332109.32377 21 edf072f31bf80cc0f8081047f33e2769 ""
-  "chapters/20_analyse.aux" 1768778323.33037 15468 eb2ba5c37b30a68243be585b00ffb8a0 "xelatex"
+  "chapters/20_analyse.aux" 1768825989.15191 15468 eb2ba5c37b30a68243be585b00ffb8a0 "xelatex"
   "chapters/20_analyse.tex" 1768410214.21095 32396 309b2253da1a43fb3462c7e8f00e718b ""
-  "chapters/30_konzeption.aux" 1768778323.38577 5807 8c9bbe5bce16074d3cc2a706a1b982ad "xelatex"
+  "chapters/30_konzeption.aux" 1768825989.21037 5807 8c9bbe5bce16074d3cc2a706a1b982ad "xelatex"
   "chapters/30_konzeption.tex" 1768410214.21162 8868 1019a3759bf977ffbae477fb54dbae4f ""
-  "chapters/40_entwicklung.aux" 1768778323.46259 8255 d5f160426d4910f23aee1f265a7e7ae9 "xelatex"
+  "chapters/40_entwicklung.aux" 1768825989.2915 8255 d5f160426d4910f23aee1f265a7e7ae9 "xelatex"
   "chapters/40_entwicklung.tex" 1768410214.2123 20008 094830193bbfe5725fcdacfcbad3ec4e ""
-  "chapters/50_evaluation.aux" 1768778323.4675 4685 230848cc3394550e0fa69df4c3472563 "xelatex"
+  "chapters/50_evaluation.aux" 1768825989.29584 4685 230848cc3394550e0fa69df4c3472563 "xelatex"
   "chapters/50_evaluation.tex" 1768332109.32536 20 b9bf1a6cc1f320bfe01b8d488d2ded14 ""
-  "chapters/60_Einführungsprozess.aux" 1768778323.52468 7272 17127eb4488bbdbde6ec61192039c2a2 "xelatex"
-  "chapters/60_Einführungsprozess.tex" 1768778320.67105 8123 0925ba90cd2d207f7b7de5013da0b016 ""
-  "chapters/70_fazitAusblick.aux" 1768778323.5301 4696 45fde58e4c860a31cd5ed17713cfd6bb "xelatex"
+  "chapters/60_Einführungsprozess.aux" 1768825989.35704 7510 189dd78fe7106c7ce225a73ac8118790 "xelatex"
+  "chapters/60_Einführungsprozess.tex" 1768825977.93055 8375 c14979254e72de243ec92d1d355ce0df ""
+  "chapters/70_fazitAusblick.aux" 1768825989.36191 4696 7da18ab4a51570f823bf6924cb4fca10 "xelatex"
   "chapters/70_fazitAusblick.tex" 1768332109.32619 295 45cf39619356c0558367175254469a43 ""
   "figures/Altersverteilung.png" 1768332109.32738 87650 b8e5fdca65e900e7a2e0266dca89293f ""
   "figures/Angst_maennlich.png" 1768332109.32804 71963 9a82437e53777e676444c3980854c2e5 ""
   "figures/Angst_weiblich.png" 1768332109.33038 75107 20e2501e2f8496fe8e2df95a0f5aec0b ""
+  "figures/Checkliste.png" 1768825806.09622 239069 3e9561916f6058c4bff93e22deaabab8 ""
   "figures/Faktoren.png" 1768332109.33179 230946 29c124a2e85aeaf6dca7afa605d4b0b2 ""
   "figures/Risiken.png" 1768332109.33774 223000 c5216bbf5941a0163b1df2c1b4f7d5ac ""
   "figures/Risiken_maennlich.png" 1768332109.33954 205309 e8c1a4c678eef437fdf574798b604675 ""
@@ -287,14 +288,14 @@
   "figures/routen.png" 1768410214.36551 1169390 baf2ec43da740a974f871c1d47492307 ""
   "preamble/acronyms.tex" 1768332109.35386 73 6fd4704e51f2c056960decdda8cbc892 ""
   "preamble/title_page.tex" 1768332109.35407 1534 9761ba310fae4b06047a48018f8a4365 ""
-  "thesis.aux" 1768778323.59115 4137 a1d96f55e6022e983e161158c72139e5 "xelatex"
+  "thesis.aux" 1768825989.42922 4137 8be25036ddce518866e4bb0316868119 "xelatex"
   "thesis.bbl" 1768776302.94588 466 76d65a242ec496c9b4361af646ff12cb "biber thesis"
-  "thesis.lof" 1768778323.60619 5522 479fb2ae2d5dc7396f86282dfad286a5 "xelatex"
-  "thesis.lot" 1768778323.60622 1019 6a7eb79822fe90e5bd9664c139bb6bc8 "xelatex"
-  "thesis.out" 1768778322.87253 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "thesis.run.xml" 1768778323.60606 2575 295af9153dd1fda3fbe788d987632a1a "xelatex"
+  "thesis.lof" 1768825989.44433 5719 0151dd6aaed86d5eeac3fc1204cfbe3e "xelatex"
+  "thesis.lot" 1768825989.44436 1019 6a7eb79822fe90e5bd9664c139bb6bc8 "xelatex"
+  "thesis.out" 1768825988.68888 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "thesis.run.xml" 1768825989.44425 2575 295af9153dd1fda3fbe788d987632a1a "xelatex"
   "thesis.tex" 1768410214.79125 6944 8c4c4c4ff0de150a2d37516f6ebce735 ""
-  "thesis.toc" 1768778323.60615 5456 ff5134d8a05374e398110b554eadc81f "xelatex"
+  "thesis.toc" 1768825989.44431 5456 73508926a98c1dacf4518fce812d3334 "xelatex"
   (generated)
   "chapters/10_introduction.aux"
   "chapters/20_analyse.aux"

@@ -622,6 +622,9 @@ OUTPUT chapters/60_Einführungsprozess.aux
 INPUT ./chapters/60_Einführungsprozess.tex
 INPUT ./chapters/60_Einführungsprozess.tex
 INPUT chapters/60_Einführungsprozess.tex
+INPUT ./figures/Checkliste.png
+INPUT ./figures/Checkliste.png
+INPUT ./figures/Checkliste.png
 INPUT ./chapters/70_fazitAusblick.tex
 INPUT ./chapters/70_fazitAusblick.tex
 OUTPUT chapters/70_fazitAusblick.aux

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.1.12)  19 JAN 2026 00:18
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.1.12)  19 JAN 2026 13:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1588,11 +1588,8 @@ chapter 5.
 
  (./chapters/60_Einführungsprozess.tex
 chapter 6.
-
-Overfull \hbox (8.64508pt too wide) in paragraph at lines 10--11
-\TU/lmr/m/n/12 Das Supportkonzept berücksichtigt sowohl technische Hilfestellungen bei der App-Nutzung
- []
-
+File: figures/Checkliste.png Graphic file (type bmp)
+<figures/Checkliste.png>
 
 
 [42
@@ -1602,6 +1599,11 @@ Overfull \hbox (8.64508pt too wide) in paragraph at lines 10--11
 
 
 ]
+Overfull \hbox (8.64508pt too wide) in paragraph at lines 16--17
+\TU/lmr/m/n/12 Das Supportkonzept berücksichtigt sowohl technische Hilfestellungen bei der App-Nutzung
+ []
+
+
 
 [43]
 
@@ -1612,13 +1614,15 @@ Overfull \hbox (8.64508pt too wide) in paragraph at lines 10--11
 [46])
 
 [47]
+
+[48]
 \openout2 = `chapters/70_fazitAusblick.aux'.
 
  (./chapters/70_fazitAusblick.tex
 chapter 7.
 )
 
-[48
+[49
 
 
 
@@ -1661,7 +1665,7 @@ Overfull \hbox (63.56123pt too wide) in paragraph at lines 6--1
 
 
 
-[49
+[50
 
 
 
@@ -1680,18 +1684,18 @@ File: figures/login_anhang.png Graphic file (type bmp)
 <figures/login_anhang.png>
 )
 
-[50
+[51
 
 
 ]
-
-[51]
 
 [52]
 
 [53]
 
 [54]
+
+[55]
 chapter C.
 Package tocbasic Info: character protrusion at lof deactivated on input line 195.
 (./thesis.lof
@@ -1701,7 +1705,7 @@ Overfull \hbox (3.84116pt too wide) in paragraph at lines 10--10
 
 
 
-[55
+[56
 
 
 ]
@@ -1720,7 +1724,7 @@ Overfull \hbox (1.65315pt too wide) in paragraph at lines 21--21
 
 
 
-[56]
+[57]
 chapter D.
 Package tocbasic Info: character protrusion at lot deactivated on input line 196.
 (./thesis.lot)
@@ -1729,7 +1733,7 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 196
 
 
 
-[57
+[58
 
 
 ] (./thesis.aux (./chapters/10_introduction.aux) (./chapters/20_analyse.aux) (./chapters/30_konzeption.aux) (./chapters/40_entwicklung.aux) (./chapters/50_evaluation.aux) (./chapters/60_Einführungsprozess.aux) (./chapters/70_fazitAusblick.aux))
@@ -1748,12 +1752,12 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47972 strings out of 473832
- 1005733 string characters out of 5729481
- 2220206 words of memory out of 5000000
- 70281 multiletter control sequences out of 15000+600000
+ 47981 strings out of 473832
+ 1005971 string characters out of 5729481
+ 2220208 words of memory out of 5000000
+ 70289 multiletter control sequences out of 15000+600000
  566286 words of font info for 68 fonts, out of 8000000 for 9000
  1350 hyphenation exceptions out of 8191
  110i,10n,131p,11020b,7355s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on thesis.xdv (60 pages, 665956 bytes).
+Output written on thesis.xdv (61 pages, 669792 bytes).
