@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.9.11)  19 JAN 2026 19:25
+This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.9.11)  23 JAN 2026 17:07
  restricted system commands enabled.
  file:line:error style messages enabled.
 **u:/Master/Human-Centered-Design/Projekt/Bericht/thesis
@@ -1854,9 +1854,6 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 \openout2 = chapters/10_introduction.aux
  (./chapters/10_introduction.tex
 chapter 1.
-
-LaTeX Warning: Reference `app:konzeption' on page 1 undefined on input line 5.
-
 )
 
 [1
@@ -1869,6 +1866,10 @@ LaTeX Warning: Reference `app:konzeption' on page 1 undefined on input line 5.
 \openout2 = chapters/20_analyse.aux
  (./chapters/20_analyse.tex
 chapter 2.
+
+LaTeX Warning: Reference `tab:stakholderanalyse' on page 2 undefined on input l
+ine 8.
+
 
 
 [2
@@ -1884,40 +1885,15 @@ chapter 2.
 [4]
 
 [5]
-Missing character: There is no ─ (U+2500) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ─ (U+2500) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ─ (U+2500) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ─ (U+2500) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ─ (U+2500) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ─ (U+2500) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ─ (U+2500) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ─ (U+2500) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ─ (U+2500) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ─ (U+2500) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ─ (U+2500) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ─ (U+2500) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ─ (U+2500) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ─ (U+2500) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ─ (U+2500) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ─ (U+2500) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ─ (U+2500) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ─ (U+2500) in font [lmroman12-regular]:+tlig;!
-<figures/Altersverteilung.png, id=136, 578.16pt x 433.62pt>
+<figures/Altersverteilung.png, id=143, 578.16pt x 433.62pt>
 File: figures/Altersverteilung.png Graphic file (type png)
 <use figures/Altersverteilung.png>
 Package luatex.def Info: figures/Altersverteilung.png  used on input line 106.
 (luatex.def)             Requested size: 327.13367pt x 245.34642pt.
 
 
-[6
-Missing character: There is no ─ (U+2500) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ─ (U+2500) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ─ (U+2500) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ─ (U+2500) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ─ (U+2500) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ─ (U+2500) in font [lmroman12-regular]:+tlig;!
-]
-<figures/Verteilung_Laufen.png, id=147, 578.16pt x 433.62pt>
+[6]
+<figures/Verteilung_Laufen.png, id=156, 578.16pt x 433.62pt>
 File: figures/Verteilung_Laufen.png Graphic file (type png)
 <use figures/Verteilung_Laufen.png>
 Package luatex.def Info: figures/Verteilung_Laufen.png  used on input line 116.
@@ -1929,13 +1905,13 @@ Package luatex.def Info: figures/Verteilung_Laufen.png  used on input line 116.
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.2.1
 '
 <./figures/Altersverteilung.png>]
-<figures/Verteilung_Radfahren.png, id=158, 578.16pt x 433.62pt>
+<figures/Verteilung_Radfahren.png, id=166, 578.16pt x 433.62pt>
 File: figures/Verteilung_Radfahren.png Graphic file (type png)
 <use figures/Verteilung_Radfahren.png>
 Package luatex.def Info: figures/Verteilung_Radfahren.png  used on input line 1
 23.
 (luatex.def)             Requested size: 327.13367pt x 245.34642pt.
-<figures/Verteilung_Spazierengehen.png, id=159, 578.16pt x 433.62pt>
+<figures/Verteilung_Spazierengehen.png, id=167, 578.16pt x 433.62pt>
 File: figures/Verteilung_Spazierengehen.png Graphic file (type png)
 <use figures/Verteilung_Spazierengehen.png>
 Package luatex.def Info: figures/Verteilung_Spazierengehen.png  used on input l
@@ -1950,13 +1926,13 @@ warning  (pdf backend): ignoring duplicate destination with the name 'figure.2.2
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.2.3
 '
 <./figures/Verteilung_Laufen.png><./figures/Verteilung_Radfahren.png>]
-<figures/Verteilung_Walken.png, id=166, 578.16pt x 433.62pt>
+<figures/Verteilung_Walken.png, id=174, 578.16pt x 433.62pt>
 File: figures/Verteilung_Walken.png Graphic file (type png)
 <use figures/Verteilung_Walken.png>
 Package luatex.def Info: figures/Verteilung_Walken.png  used on input line 137.
 
 (luatex.def)             Requested size: 327.13367pt x 245.34642pt.
-<figures/Verteilung_Wandern.png, id=167, 578.16pt x 433.62pt>
+<figures/Verteilung_Wandern.png, id=175, 578.16pt x 433.62pt>
 File: figures/Verteilung_Wandern.png Graphic file (type png)
 <use figures/Verteilung_Wandern.png>
 Package luatex.def Info: figures/Verteilung_Wandern.png  used on input line 144
@@ -1971,7 +1947,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'figure.2.4
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.2.5
 '
 <./figures/Verteilung_Spazierengehen.png><./figures/Verteilung_Walken.png>]
-<figures/Verteilung_Smartphonezugriff_Outdoor.png, id=175, 578.16pt x 433.62pt>
+<figures/Verteilung_Smartphonezugriff_Outdoor.png, id=183, 578.16pt x 433.62pt>
 
 File: figures/Verteilung_Smartphonezugriff_Outdoor.png Graphic file (type png)
 <use figures/Verteilung_Smartphonezugriff_Outdoor.png>
@@ -1984,7 +1960,7 @@ Package luatex.def Info: figures/Verteilung_Smartphonezugriff_Outdoor.png  used
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.2.6
 '
 <./figures/Verteilung_Wandern.png>]
-<figures/Verteilung_Unsicherheit_Outdoor.png, id=187, 578.16pt x 433.62pt>
+<figures/Verteilung_Unsicherheit_Outdoor.png, id=195, 578.16pt x 433.62pt>
 File: figures/Verteilung_Unsicherheit_Outdoor.png Graphic file (type png)
 <use figures/Verteilung_Unsicherheit_Outdoor.png>
 Package luatex.def Info: figures/Verteilung_Unsicherheit_Outdoor.png  used on i
@@ -1996,12 +1972,12 @@ nput line 165.
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.2.7
 '
 <./figures/Verteilung_Smartphonezugriff_Outdoor.png>]
-<figures/Angst_weiblich.png, id=198, 578.16pt x 433.62pt>
+<figures/Angst_weiblich.png, id=206, 578.16pt x 433.62pt>
 File: figures/Angst_weiblich.png Graphic file (type png)
 <use figures/Angst_weiblich.png>
 Package luatex.def Info: figures/Angst_weiblich.png  used on input line 172.
 (luatex.def)             Requested size: 327.13367pt x 245.34642pt.
-<figures/Angst_maennlich.png, id=199, 578.16pt x 433.62pt>
+<figures/Angst_maennlich.png, id=207, 578.16pt x 433.62pt>
 File: figures/Angst_maennlich.png Graphic file (type png)
 <use figures/Angst_maennlich.png>
 Package luatex.def Info: figures/Angst_maennlich.png  used on input line 179.
@@ -2015,67 +1991,72 @@ warning  (pdf backend): ignoring duplicate destination with the name 'figure.2.8
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.2.9
 '
 <./figures/Verteilung_Unsicherheit_Outdoor.png><./figures/Angst_weiblich.png>]
-<figures/Risiken.png, id=207, 578.16pt x 433.62pt>
+<figures/Risiken.png, id=215, 578.16pt x 433.62pt>
 File: figures/Risiken.png Graphic file (type png)
 <use figures/Risiken.png>
 Package luatex.def Info: figures/Risiken.png  used on input line 189.
-(luatex.def)             Requested size: 327.13367pt x 245.34642pt.
+(luatex.def)             Requested size: 448.13095pt x 336.09834pt.
 
 
 [13
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.2.1
 0'
 <./figures/Angst_maennlich.png>]
-<figures/Risiken_weiblich.png, id=219, 578.16pt x 433.62pt>
+<figures/Risiken_weiblich.png, id=227, 578.16pt x 433.62pt>
 File: figures/Risiken_weiblich.png Graphic file (type png)
 <use figures/Risiken_weiblich.png>
 Package luatex.def Info: figures/Risiken_weiblich.png  used on input line 196.
-(luatex.def)             Requested size: 327.13367pt x 245.34642pt.
-<figures/Risiken_maennlich.png, id=220, 578.16pt x 433.62pt>
-File: figures/Risiken_maennlich.png Graphic file (type png)
-<use figures/Risiken_maennlich.png>
-Package luatex.def Info: figures/Risiken_maennlich.png  used on input line 203.
-
-(luatex.def)             Requested size: 327.13367pt x 245.34642pt.
+(luatex.def)             Requested size: 448.13095pt x 336.09834pt.
 
 
 [14
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.2.1
 1'
+<./figures/Risiken.png>]
+<figures/Risiken_maennlich.png, id=232, 578.16pt x 433.62pt>
+File: figures/Risiken_maennlich.png Graphic file (type png)
+<use figures/Risiken_maennlich.png>
+Package luatex.def Info: figures/Risiken_maennlich.png  used on input line 203.
 
-warning  (pdf backend): ignoring duplicate destination with the name 'figure.2.1
-2'
-<./figures/Risiken.png><./figures/Risiken_weiblich.png>]
+(luatex.def)             Requested size: 448.13095pt x 336.09834pt.
+
 
 [15
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.2.1
+2'
+<./figures/Risiken_weiblich.png>]
+
+[16
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.2.1
 3'
 <./figures/Risiken_maennlich.png>]
-<figures/Faktoren.png, id=234, 578.16pt x 433.62pt>
+<figures/Faktoren.png, id=244, 578.16pt x 433.62pt>
 File: figures/Faktoren.png Graphic file (type png)
 <use figures/Faktoren.png>
 Package luatex.def Info: figures/Faktoren.png  used on input line 216.
-(luatex.def)             Requested size: 336.0982pt x 252.06879pt.
+(luatex.def)             Requested size: 448.13095pt x 336.09834pt.
 
 
-[16
+[17]
+
+[18
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.2.1
 4'
 <./figures/Faktoren.png>]
 
-[17
+[19
 warning  (pdf backend): ignoring duplicate destination with the name 'table.2.2'
 
 ]
 
-[18
+[20
 warning  (pdf backend): ignoring duplicate destination with the name 'table.2.3'
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'table.2.4'
 
 ]
-<figures/Verteilung_Nutzungswahrscheinlichkeit_Outdoor.png, id=261, 578.16pt x 
+<figures/Verteilung_Nutzungswahrscheinlichkeit_Outdoor.png, id=282, 578.16pt x 
 433.62pt>
 File: figures/Verteilung_Nutzungswahrscheinlichkeit_Outdoor.png Graphic file (t
 ype png)
@@ -2085,11 +2066,11 @@ png  used on input line 361.
 (luatex.def)             Requested size: 327.13367pt x 245.34642pt.
 
 
-[19
+[21
 warning  (pdf backend): ignoring duplicate destination with the name 'table.2.5'
 
 ]
-<figures/Verteilung_Nutzungswahrscheinlichkeit_weiblich_Outdoor.png, id=268, 57
+<figures/Verteilung_Nutzungswahrscheinlichkeit_weiblich_Outdoor.png, id=294, 57
 8.16pt x 433.62pt>
 File: figures/Verteilung_Nutzungswahrscheinlichkeit_weiblich_Outdoor.png Graphi
 c file (type png)
@@ -2097,7 +2078,7 @@ c file (type png)
 Package luatex.def Info: figures/Verteilung_Nutzungswahrscheinlichkeit_weiblich
 _Outdoor.png  used on input line 368.
 (luatex.def)             Requested size: 327.13367pt x 245.34642pt.
-<figures/Verteilung_Nutzungswahrscheinlichkeit_maennlich_Outdoor.png, id=269, 5
+<figures/Verteilung_Nutzungswahrscheinlichkeit_maennlich_Outdoor.png, id=295, 5
 78.16pt x 433.62pt>
 File: figures/Verteilung_Nutzungswahrscheinlichkeit_maennlich_Outdoor.png Graph
 ic file (type png)
@@ -2107,7 +2088,7 @@ h_Outdoor.png  used on input line 375.
 (luatex.def)             Requested size: 327.13367pt x 245.34642pt.
 
 
-[20
+[22
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.2.1
 5'
 
@@ -2115,7 +2096,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'figure.2.1
 6'
 <./figures/Verteilung_Nutzungswahrscheinlichkeit_Outdoor.png><./figures/Verteilu
 ng_Nutzungswahrscheinlichkeit_weiblich_Outdoor.png>]
-<figures/Verteilung_Nutzungswahrscheinlichkeit_unsicher_Outdoor.png, id=276, 57
+<figures/Verteilung_Nutzungswahrscheinlichkeit_unsicher_Outdoor.png, id=300, 57
 8.16pt x 433.62pt>
 File: figures/Verteilung_Nutzungswahrscheinlichkeit_unsicher_Outdoor.png Graphi
 c file (type png)
@@ -2125,7 +2106,7 @@ _Outdoor.png  used on input line 382.
 (luatex.def)             Requested size: 327.13367pt x 245.34642pt.
 
 
-[21
+[23
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.2.1
 7'
 
@@ -2134,17 +2115,17 @@ warning  (pdf backend): ignoring duplicate destination with the name 'figure.2.1
 <./figures/Verteilung_Nutzungswahrscheinlichkeit_maennlich_Outdoor.png><./figure
 s/Verteilung_Nutzungswahrscheinlichkeit_unsicher_Outdoor.png>]
 
-[22])
-
-[23]
-
 [24]
+
+[25])
+
+[26]
 \openout2 = chapters/30_konzeption.aux
  (./chapters/30_konzeption.tex
 chapter 3.
 
 
-[25
+[27
 
 
 
@@ -2152,22 +2133,22 @@ chapter 3.
 
 ]
 
-[26]
-
-[27]
-
 [28]
-<figures/Aufgabenanalysematrix.jpg, id=315, 2541.495pt x 2459.1875pt>
-File: figures/Aufgabenanalysematrix.jpg Graphic file (type jpg)
-<use figures/Aufgabenanalysematrix.jpg>
-Package luatex.def Info: figures/Aufgabenanalysematrix.jpg  used on input line 
-90.
-(luatex.def)             Requested size: 448.13095pt x 433.59134pt.
-)
 
 [29]
 
-[30
+[30]
+<figures/Aufgabenanalysematrix.jpg, id=337, 2541.495pt x 2459.1875pt>
+File: figures/Aufgabenanalysematrix.jpg Graphic file (type jpg)
+<use figures/Aufgabenanalysematrix.jpg>
+Package luatex.def Info: figures/Aufgabenanalysematrix.jpg  used on input line 
+93.
+(luatex.def)             Requested size: 448.13095pt x 433.59134pt.
+)
+
+[31]
+
+[32
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.3.1
 9'
 <./figures/Aufgabenanalysematrix.jpg>]
@@ -2175,124 +2156,124 @@ warning  (pdf backend): ignoring duplicate destination with the name 'figure.3.1
  (./chapters/40_entwicklung.tex
 chapter 4.
 
-LaTeX Warning: Reference `sec:optimierungsmaßnahme' on page 31 undefined on in
+LaTeX Warning: Reference `sec:optimierungsmaßnahme' on page 33 undefined on in
 put line 45.
 
 
 
-[31
+[33
 
 
 
 
 
 ]
-<figures/profil.png, id=344, 883.3pt x 893.3375pt>
+<figures/profil.png, id=366, 883.3pt x 893.3375pt>
 File: figures/profil.png Graphic file (type png)
 <use figures/profil.png>
 Package luatex.def Info: figures/profil.png  used on input line 58.
 (luatex.def)             Requested size: 336.0982pt x 339.9216pt.
 
 
-[32
+[34
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.4.2
 0'
 <./figures/profil.png>]
-<figures/kontakte1.png, id=354, 889.3225pt x 846.16125pt>
+<figures/kontakte1.png, id=376, 889.3225pt x 846.16125pt>
 File: figures/kontakte1.png Graphic file (type png)
 <use figures/kontakte1.png>
 Package luatex.def Info: figures/kontakte1.png  used on input line 71.
 (luatex.def)             Requested size: 336.0982pt x 319.78867pt.
 
 
-[33
+[35
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.4.2
 1'
 <./figures/kontakte1.png>]
-<figures/kontakte2.png, id=365, 889.3225pt x 846.16125pt>
+<figures/kontakte2.png, id=387, 889.3225pt x 846.16125pt>
 File: figures/kontakte2.png Graphic file (type png)
 <use figures/kontakte2.png>
 Package luatex.def Info: figures/kontakte2.png  used on input line 80.
 (luatex.def)             Requested size: 336.0982pt x 319.78867pt.
 
 
-[34
+[36
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.4.2
 2'
 <./figures/kontakte2.png>]
-<figures/karte.png, id=371, 883.3pt x 846.16125pt>
+<figures/karte.png, id=393, 883.3pt x 846.16125pt>
 File: figures/karte.png Graphic file (type png)
 <use figures/karte.png>
 Package luatex.def Info: figures/karte.png  used on input line 112.
 (luatex.def)             Requested size: 336.0982pt x 321.97069pt.
 
 
-[35
+[37
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.4.2
 3'
 <./figures/karte.png>]
-<figures/aktivität_frei.png, id=383, 889.3225pt x 846.16125pt>
+<figures/aktivität_frei.png, id=405, 889.3225pt x 846.16125pt>
 File: figures/aktivität_frei.png Graphic file (type png)
 <use figures/aktivität_frei.png>
 Package luatex.def Info: figures/aktivität_frei.png  used on input line 123.
 (luatex.def)             Requested size: 336.0982pt x 319.78867pt.
 
 
-[36
+[38
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.4.2
 4'
 <./figures/aktivität_frei.png>]
-<figures/liveTracking.png, id=393, 883.3pt x 846.16125pt>
+<figures/liveTracking.png, id=416, 883.3pt x 846.16125pt>
 File: figures/liveTracking.png Graphic file (type png)
 <use figures/liveTracking.png>
 Package luatex.def Info: figures/liveTracking.png  used on input line 133.
 (luatex.def)             Requested size: 336.0982pt x 321.97069pt.
 
 
-[37
+[39
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.4.2
 5'
 <./figures/liveTracking.png>]
-<figures/routen.png, id=405, 889.3225pt x 846.16125pt>
+<figures/routen.png, id=428, 889.3225pt x 846.16125pt>
 File: figures/routen.png Graphic file (type png)
 <use figures/routen.png>
 Package luatex.def Info: figures/routen.png  used on input line 144.
 (luatex.def)             Requested size: 336.0982pt x 319.78867pt.
-<figures/aktivität_route.png, id=406, 883.3pt x 846.16125pt>
+<figures/aktivität_route.png, id=429, 883.3pt x 846.16125pt>
 File: figures/aktivität_route.png Graphic file (type png)
 <use figures/aktivität_route.png>
 Package luatex.def Info: figures/aktivität_route.png  used on input line 151.
 (luatex.def)             Requested size: 336.0982pt x 321.97069pt.
 
 
-[38
+[40
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.4.2
 6'
 <./figures/routen.png>]
-<figures/gefahr.png, id=418, 889.3225pt x 846.16125pt>
+<figures/gefahr.png, id=440, 889.3225pt x 846.16125pt>
 File: figures/gefahr.png Graphic file (type png)
 <use figures/gefahr.png>
 Package luatex.def Info: figures/gefahr.png  used on input line 162.
 (luatex.def)             Requested size: 336.0982pt x 319.78867pt.
 
 
-[39
+[41
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.4.2
 7'
 <./figures/aktivität_route.png>]
 
-[40
+[42
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.4.2
 8'
 <./figures/gefahr.png>]
-<figures/prototyping.png, id=435, 889.3225pt x 846.16125pt>
+<figures/prototyping.png, id=457, 889.3225pt x 846.16125pt>
 File: figures/prototyping.png Graphic file (type png)
 <use figures/prototyping.png>
 Package luatex.def Info: figures/prototyping.png  used on input line 185.
 (luatex.def)             Requested size: 291.28238pt x 277.14244pt.
 )
 
-[41
+[43
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.4.2
 9'
 <./figures/prototyping.png>]
@@ -2301,7 +2282,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'figure.4.2
 chapter 5.
 
 
-[42
+[44
 
 
 
@@ -2309,71 +2290,68 @@ chapter 5.
 
 ]
 
-LaTeX Warning: Reference `app:personas' on page 43 undefined on input line 15.
-
-<figures/ueg_items-result.png, id=462, 633.567pt x 444.4605pt>
+[45]
+<figures/ueg_items-result.png, id=492, 633.567pt x 444.4605pt>
 File: figures/ueg_items-result.png Graphic file (type png)
 <use figures/ueg_items-result.png>
-Package luatex.def Info: figures/ueg_items-result.png  used on input line 26.
+Package luatex.def Info: figures/ueg_items-result.png  used on input line 27.
 (luatex.def)             Requested size: 448.13095pt x 314.36876pt.
 
 
-[43]
-
-[44
+[46
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.5.3
 0'
 <./figures/ueg_items-result.png>]
-<figures/UEQ_Scales.png, id=480, 299.31825pt x 148.75575pt>
+<figures/UEQ_Scales.png, id=502, 299.31825pt x 148.75575pt>
 File: figures/UEQ_Scales.png Graphic file (type png)
 <use figures/UEQ_Scales.png>
-Package luatex.def Info: figures/UEQ_Scales.png  used on input line 34.
-(luatex.def)             Requested size: 448.13095pt x 222.71541pt.
-<figures/UEQ_Quality.png, id=484, 242.1045pt x 93.951pt>
+Package luatex.def Info: figures/UEQ_Scales.png  used on input line 38.
+(luatex.def)             Requested size: 336.0982pt x 167.03654pt.
+<figures/UEQ_Quality.png, id=506, 242.1045pt x 93.951pt>
 File: figures/UEQ_Quality.png Graphic file (type png)
 <use figures/UEQ_Quality.png>
-Package luatex.def Info: figures/UEQ_Quality.png  used on input line 41.
-(luatex.def)             Requested size: 448.13095pt x 173.90842pt.
-<figures/ueq_benchmark.png, id=488, 646.21425pt x 341.47575pt>
+Package luatex.def Info: figures/UEQ_Quality.png  used on input line 47.
+(luatex.def)             Requested size: 336.0982pt x 130.43095pt.
+<figures/ueq_benchmark.png, id=510, 646.21425pt x 341.47575pt>
 File: figures/ueq_benchmark.png Graphic file (type png)
 <use figures/ueq_benchmark.png>
-Package luatex.def Info: figures/ueq_benchmark.png  used on input line 50.
+Package luatex.def Info: figures/ueq_benchmark.png  used on input line 57.
 (luatex.def)             Requested size: 448.13095pt x 236.81172pt.
 
 
-[45
+[47
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.5.3
 1'
 <./figures/UEQ_Scales.png>]
 
-[46
+[48
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.5.3
 2'
-<./figures/UEQ_Quality.png>]
 
-[47
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.5.3
 3'
-<./figures/ueq_benchmark.png>]
-
-[48]
+<./figures/UEQ_Quality.png><./figures/ueq_benchmark.png>]
 
 [49]
 
-[50])
+[50]
 
 [51]
+
+[52])
+
+[53]
 \openout2 = chapters/60_Einführungsprozess.aux
  (./chapters/60_Einführungsprozess.tex
 chapter 6.
-<figures/Checkliste.png, id=554, 1030.85126pt x 600.2425pt>
+<figures/Checkliste.png, id=583, 1030.85126pt x 600.2425pt>
 File: figures/Checkliste.png Graphic file (type png)
 <use figures/Checkliste.png>
 Package luatex.def Info: figures/Checkliste.png  used on input line 10.
 (luatex.def)             Requested size: 448.13095pt x 260.92935pt.
 
 
-[52
+[54
 
 
 
@@ -2381,32 +2359,34 @@ Package luatex.def Info: figures/Checkliste.png  used on input line 10.
 
 ]
 
-[53
+[55
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.6.3
 4'
 <./figures/Checkliste.png>]
 
-[54]
-
-[55]
-
 [56]
 
-[57])
+[57]
 
 [58]
+
+[59])
+
+[60]
 \openout2 = chapters/70_fazitAusblick.aux
  (./chapters/70_fazitAusblick.tex
 chapter 7.
-)
-
-[59
 
 
+[61
 
 
 
-]
+
+
+])
+
+[62]
 chapter 8.
 
 Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
@@ -2422,15 +2402,195 @@ Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
 (scrreprt)              and replace `\begin{appendix}' by command
 (scrreprt)              `\appendix' on input line 182.
 
-(./appendices/link.tex
+(./appendices/onlineUmfrage.tex
 
-[60
+[63
 
 
 
 
 ]
 chapter A.
+<figures/Anhang_Umfrage_1.png, id=657, 832.3095pt x 549.85425pt>
+File: figures/Anhang_Umfrage_1.png Graphic file (type png)
+<use figures/Anhang_Umfrage_1.png>
+Package luatex.def Info: figures/Anhang_Umfrage_1.png  used on input line 8.
+(luatex.def)             Requested size: 448.13095pt x 296.06107pt.
+<figures/Anhang_Umfrage_2.png, id=658, 889.52325pt x 369.17924pt>
+File: figures/Anhang_Umfrage_2.png Graphic file (type png)
+<use figures/Anhang_Umfrage_2.png>
+Package luatex.def Info: figures/Anhang_Umfrage_2.png  used on input line 14.
+(luatex.def)             Requested size: 448.13095pt x 185.99184pt.
+<figures/Anhang_Umfrage_3.png, id=659, 905.18175pt x 296.90926pt>
+File: figures/Anhang_Umfrage_3.png Graphic file (type png)
+<use figures/Anhang_Umfrage_3.png>
+Package luatex.def Info: figures/Anhang_Umfrage_3.png  used on input line 20.
+(luatex.def)             Requested size: 448.13095pt x 146.99544pt.
+<figures/Anhang_Umfrage_4.png, id=660, 918.43124pt x 234.8775pt>
+File: figures/Anhang_Umfrage_4.png Graphic file (type png)
+<use figures/Anhang_Umfrage_4.png>
+Package luatex.def Info: figures/Anhang_Umfrage_4.png  used on input line 26.
+(luatex.def)             Requested size: 448.13095pt x 114.60356pt.
+<figures/Anhang_Umfrage_5.png, id=661, 892.5345pt x 249.93375pt>
+File: figures/Anhang_Umfrage_5.png Graphic file (type png)
+<use figures/Anhang_Umfrage_5.png>
+Package luatex.def Info: figures/Anhang_Umfrage_5.png  used on input line 32.
+(luatex.def)             Requested size: 448.13095pt x 125.48521pt.
+<figures/Anhang_Umfrage_6.png, id=662, 898.557pt x 392.667pt>
+File: figures/Anhang_Umfrage_6.png Graphic file (type png)
+<use figures/Anhang_Umfrage_6.png>
+Package luatex.def Info: figures/Anhang_Umfrage_6.png  used on input line 38.
+(luatex.def)             Requested size: 448.13095pt x 195.83571pt.
+<figures/Anhang_Umfrage_7.png, id=663, 883.50075pt x 356.532pt>
+File: figures/Anhang_Umfrage_7.png Graphic file (type png)
+<use figures/Anhang_Umfrage_7.png>
+Package luatex.def Info: figures/Anhang_Umfrage_7.png  used on input line 44.
+(luatex.def)             Requested size: 448.13095pt x 180.84422pt.
+<figures/Anhang_Umfrage_8.png, id=664, 912.40875pt x 424.58624pt>
+File: figures/Anhang_Umfrage_8.png Graphic file (type png)
+<use figures/Anhang_Umfrage_8.png>
+Package luatex.def Info: figures/Anhang_Umfrage_8.png  used on input line 50.
+(luatex.def)             Requested size: 448.13095pt x 208.53497pt.
+<figures/Anhang_Umfrage_9.png, id=665, 890.1255pt x 419.166pt>
+File: figures/Anhang_Umfrage_9.png Graphic file (type png)
+<use figures/Anhang_Umfrage_9.png>
+Package luatex.def Info: figures/Anhang_Umfrage_9.png  used on input line 56.
+(luatex.def)             Requested size: 448.13095pt x 211.03436pt.
+<figures/Anhang_Umfrage_10.png, id=666, 909.99976pt x 442.65375pt>
+File: figures/Anhang_Umfrage_10.png Graphic file (type png)
+<use figures/Anhang_Umfrage_10.png>
+Package luatex.def Info: figures/Anhang_Umfrage_10.png  used on input line 62.
+(luatex.def)             Requested size: 448.13095pt x 217.98967pt.
+<figures/Anhang_Umfrage_11.png, id=667, 918.43124pt x 411.33675pt>
+File: figures/Anhang_Umfrage_11.png Graphic file (type png)
+<use figures/Anhang_Umfrage_11.png>
+Package luatex.def Info: figures/Anhang_Umfrage_11.png  used on input line 68.
+(luatex.def)             Requested size: 448.13095pt x 200.70316pt.
+<figures/Anhang_Umfrage_12.png, id=668, 901.56825pt x 284.86424pt>
+File: figures/Anhang_Umfrage_12.png Graphic file (type png)
+<use figures/Anhang_Umfrage_12.png>
+Package luatex.def Info: figures/Anhang_Umfrage_12.png  used on input line 74.
+(luatex.def)             Requested size: 448.13095pt x 141.59285pt.
+<figures/Anhang_Umfrage_13.png, id=669, 917.22675pt x 284.262pt>
+File: figures/Anhang_Umfrage_13.png Graphic file (type png)
+<use figures/Anhang_Umfrage_13.png>
+Package luatex.def Info: figures/Anhang_Umfrage_13.png  used on input line 80.
+(luatex.def)             Requested size: 448.13095pt x 138.88187pt.
+<figures/Anhang_Umfrage_14.png, id=670, 879.88725pt x 172.84575pt>
+File: figures/Anhang_Umfrage_14.png Graphic file (type png)
+<use figures/Anhang_Umfrage_14.png>
+Package luatex.def Info: figures/Anhang_Umfrage_14.png  used on input line 86.
+(luatex.def)             Requested size: 448.13095pt x 88.03146pt.
+<figures/Anhang_Umfrage_15.png, id=671, 884.103pt x 193.9245pt>
+File: figures/Anhang_Umfrage_15.png Graphic file (type png)
+<use figures/Anhang_Umfrage_15.png>
+Package luatex.def Info: figures/Anhang_Umfrage_15.png  used on input line 92.
+(luatex.def)             Requested size: 448.13095pt x 98.29356pt.
+<figures/Anhang_Umfrage_16.png, id=672, 898.557pt x 145.14224pt>
+File: figures/Anhang_Umfrage_16.png Graphic file (type png)
+<use figures/Anhang_Umfrage_16.png>
+Package luatex.def Info: figures/Anhang_Umfrage_16.png  used on input line 98.
+(luatex.def)             Requested size: 448.13095pt x 72.38712pt.
+<figures/Anhang_Umfrage_17.png, id=673, 974.4405pt x 176.45924pt>
+File: figures/Anhang_Umfrage_17.png Graphic file (type png)
+<use figures/Anhang_Umfrage_17.png>
+Package luatex.def Info: figures/Anhang_Umfrage_17.png  used on input line 104.
+
+(luatex.def)             Requested size: 448.13095pt x 81.15068pt.
+<figures/Anhang_Umfrage_18.png, id=674, 911.20425pt x 139.11975pt>
+File: figures/Anhang_Umfrage_18.png Graphic file (type png)
+<use figures/Anhang_Umfrage_18.png>
+Package luatex.def Info: figures/Anhang_Umfrage_18.png  used on input line 110.
+
+(luatex.def)             Requested size: 448.13095pt x 68.41975pt.
+<figures/Anhang_Umfrage_19.png, id=675, 512.51476pt x 167.4255pt>
+File: figures/Anhang_Umfrage_19.png Graphic file (type png)
+<use figures/Anhang_Umfrage_19.png>
+Package luatex.def Info: figures/Anhang_Umfrage_19.png  used on input line 116.
+
+(luatex.def)             Requested size: 448.13095pt x 146.39474pt.
+) (./appendices/link.tex
+
+[64
+
+
+
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.A.3
+5'
+<./figures/Anhang_Umfrage_1.png>]
+
+[65
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.A.3
+6'
+
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.A.3
+7'
+<./figures/Anhang_Umfrage_2.png><./figures/Anhang_Umfrage_3.png>]
+
+[66
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.A.3
+8'
+
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.A.3
+9'
+<./figures/Anhang_Umfrage_4.png><./figures/Anhang_Umfrage_5.png>]
+
+[67
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.A.4
+0'
+
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.A.4
+1'
+<./figures/Anhang_Umfrage_6.png><./figures/Anhang_Umfrage_7.png>]
+
+[68
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.A.4
+2'
+
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.A.4
+3'
+<./figures/Anhang_Umfrage_8.png><./figures/Anhang_Umfrage_9.png>]
+
+[69
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.A.4
+4'
+
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.A.4
+5'
+<./figures/Anhang_Umfrage_10.png><./figures/Anhang_Umfrage_11.png>]
+
+[70
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.A.4
+6'
+
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.A.4
+7'
+
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.A.4
+8'
+<./figures/Anhang_Umfrage_12.png><./figures/Anhang_Umfrage_13.png><./figures/Anh
+ang_Umfrage_14.png>]
+
+[71
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.A.4
+9'
+
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.A.5
+0'
+
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.A.5
+1'
+
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.A.5
+2'
+<./figures/Anhang_Umfrage_15.png><./figures/Anhang_Umfrage_16.png><./figures/Anh
+ang_Umfrage_17.png><./figures/Anhang_Umfrage_18.png>]
+
+[72
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.A.5
+3'
+<./figures/Anhang_Umfrage_19.png>]
+chapter B.
 ) (./appendices/prototyp.tex
 Overfull \hbox (6.32741pt too wide) in paragraph at lines 6--1
 []\TU/lmr/m/n/12 Link zum Fig-ma Pro-to-ty-pen: []$https://www.figma.com/proto/5
@@ -2451,69 +2611,69 @@ ed&starting-[]point-[]node-[]id=
 
 
 
-[61
+[73
 
 
 ]
-chapter B.
-<figures/profil_anhang.png, id=631, 1684.2925pt x 846.16125pt>
+chapter C.
+<figures/profil_anhang.png, id=760, 1684.2925pt x 846.16125pt>
 File: figures/profil_anhang.png Graphic file (type png)
 <use figures/profil_anhang.png>
 Package luatex.def Info: figures/profil_anhang.png  used on input line 6.
 (luatex.def)             Requested size: 448.13095pt x 225.12254pt.
-<figures/kontakt_anhang.png, id=632, 1684.2925pt x 1724.4425pt>
+<figures/kontakt_anhang.png, id=761, 1684.2925pt x 1724.4425pt>
 File: figures/kontakt_anhang.png Graphic file (type png)
 <use figures/kontakt_anhang.png>
 Package luatex.def Info: figures/kontakt_anhang.png  used on input line 13.
 (luatex.def)             Requested size: 448.13095pt x 458.79068pt.
-<figures/aktivität_frei_anhang.png, id=633, 1684.2925pt x 846.16125pt>
+<figures/aktivität_frei_anhang.png, id=762, 1684.2925pt x 846.16125pt>
 File: figures/aktivität_frei_anhang.png Graphic file (type png)
 <use figures/aktivität_frei_anhang.png>
 Package luatex.def Info: figures/aktivität_frei_anhang.png  used on input line
  20.
 (luatex.def)             Requested size: 448.13095pt x 225.12254pt.
-<figures/aktivität_route_anhang.png, id=634, 1684.2925pt x 2602.72375pt>
+<figures/aktivität_route_anhang.png, id=763, 1684.2925pt x 2602.72375pt>
 File: figures/aktivität_route_anhang.png Graphic file (type png)
 <use figures/aktivität_route_anhang.png>
 Package luatex.def Info: figures/aktivität_route_anhang.png  used on input lin
 e 27.
 (luatex.def)             Requested size: 333.6143pt x 515.53154pt.
-<figures/login_anhang.png, id=635, 1684.2925pt x 1724.4425pt>
+<figures/login_anhang.png, id=764, 1684.2925pt x 1724.4425pt>
 File: figures/login_anhang.png Graphic file (type png)
 <use figures/login_anhang.png>
 Package luatex.def Info: figures/login_anhang.png  used on input line 34.
 (luatex.def)             Requested size: 448.13095pt x 458.79068pt.
 ) (./appendices/evaluation.tex
 
-[62
+[74
 
 
 
-warning  (pdf backend): ignoring duplicate destination with the name 'figure.B.3
-5'
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.C.5
+4'
 <./figures/profil_anhang.png>]
 
-[63
-warning  (pdf backend): ignoring duplicate destination with the name 'figure.B.3
-6'
+[75
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.C.5
+5'
 <./figures/kontakt_anhang.png>]
 
-[64
-warning  (pdf backend): ignoring duplicate destination with the name 'figure.B.3
-7'
+[76
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.C.5
+6'
 <./figures/aktivität_frei_anhang.png>]
 
-[65
-warning  (pdf backend): ignoring duplicate destination with the name 'figure.B.3
-8'
+[77
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.C.5
+7'
 <./figures/aktivität_route_anhang.png>]
 
-[66
-warning  (pdf backend): ignoring duplicate destination with the name 'figure.B.3
-9'
+[78
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.C.5
+8'
 <./figures/login_anhang.png>]
-chapter C.
-<figures/Leitfaden Benutzertest_Sicherheits-App_Seite1.png, id=666, 448.67625pt
+chapter D.
+<figures/Leitfaden Benutzertest_Sicherheits-App_Seite1.png, id=796, 448.67625pt
  x 593.8185pt>
 File: figures/Leitfaden Benutzertest_Sicherheits-App_Seite1.png Graphic file (t
 ype png)
@@ -2524,7 +2684,7 @@ png  used on input line 6.
 
 LaTeX Warning: Float too large for page by 29.96939pt on input line 9.
 
-<figures/Leitfaden Benutzertest_Sicherheits-App_Seite2.png, id=667, 549.85425pt
+<figures/Leitfaden Benutzertest_Sicherheits-App_Seite2.png, id=797, 549.85425pt
  x 472.76625pt>
 File: figures/Leitfaden Benutzertest_Sicherheits-App_Seite2.png Graphic file (t
 ype png)
@@ -2532,7 +2692,7 @@ ype png)
 Package luatex.def Info: figures/Leitfaden Benutzertest_Sicherheits-App_Seite2.
 png  used on input line 13.
 (luatex.def)             Requested size: 448.13095pt x 385.3047pt.
-<figures/UEQ_Fragebogen.png, id=668, 398.6895pt x 519.74174pt>
+<figures/UEQ_Fragebogen.png, id=798, 398.6895pt x 519.74174pt>
 File: figures/UEQ_Fragebogen.png Graphic file (type png)
 <use figures/UEQ_Fragebogen.png>
 Package luatex.def Info: figures/UEQ_Fragebogen.png  used on input line 20.
@@ -2542,52 +2702,52 @@ LaTeX Warning: Float too large for page by 21.04257pt on input line 23.
 
 )
 
-[67
+[79
 
 
 ]
 
-[68
-warning  (pdf backend): ignoring duplicate destination with the name 'figure.C.4
-0'
+[80
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.D.5
+9'
 <./figures/Leitfaden Benutzertest_Sicherheits-App_Seite1.png>]
 
-[69
-warning  (pdf backend): ignoring duplicate destination with the name 'figure.C.4
-1'
+[81
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.D.6
+0'
 <./figures/Leitfaden Benutzertest_Sicherheits-App_Seite2.png>]
 
-[70
-warning  (pdf backend): ignoring duplicate destination with the name 'figure.C.4
-2'
+[82
+warning  (pdf backend): ignoring duplicate destination with the name 'figure.D.6
+1'
 <./figures/UEQ_Fragebogen.png>]
-chapter D.
+chapter E.
 Package tocbasic Info: character protrusion at lof deactivated on input line 19
-6.
+7.
 (./thesis.lof
 
-[71
+[83
 
 
 ]
 
-[72])
+[84])
 \tf@lof=\write6
 
 \openout6 = thesis.lof
 
 
-[73]
-chapter E.
+[85]
+chapter F.
 Package tocbasic Info: character protrusion at lot deactivated on input line 19
-7.
+8.
 (./thesis.lot)
 \tf@lot=\write7
 
 \openout7 = thesis.lot
 
 
-[74
+[86
 
 
 ] (./thesis.aux (./chapters/10_introduction.aux) (./chapters/20_analyse.aux) (.
@@ -2608,14 +2768,14 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 50726 strings out of 470117
- 125005,2373549 words of node,token memory allocated
- 1248 words of node memory still in use:
-   8 hlist, 2 vlist, 2 rule, 1 local_par, 8 glue, 4 kern, 1 penalty, 3 glyph, 71
- attribute, 118 glue_spec, 37 attribute_list, 2 write, 26 pdf_action nodes
-   avail lists: 1:6,2:1968,3:393,4:149,5:690,6:81,7:10336,8:221,9:919,10:33,11:1
-339,12:1
- 77588 multiletter control sequences out of 65536+600000
+ 51037 strings out of 470117
+ 100000,2373549 words of node,token memory allocated
+ 1308 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 1 local_par, 8 glue, 4 kern, 1 penalty, 3 glyph, 81
+ attribute, 118 glue_spec, 42 attribute_list, 2 write, 31 pdf_action nodes
+   avail lists: 1:3,2:1935,3:380,4:154,5:476,6:76,7:6416,8:221,9:920,10:34,11:88
+4,12:1
+ 77804 multiletter control sequences out of 65536+600000
  56 fonts using 4317063 bytes
  110i,10n,131p,11252b,7355s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <//?/c:/users/maikb/appdata/local/programs/miktex/fonts/opentype/public/lm/lmrom
@@ -2627,9 +2787,9 @@ fonts/opentype/public/lm/lmroman10-regular.otf><//?/c:/users/maikb/appdata/local
 /?/c:/users/maikb/appdata/local/programs/miktex/fonts/opentype/public/lm/lmsans1
 2-regular.otf><//?/c:/users/maikb/appdata/local/programs/miktex/fonts/opentype/p
 ublic/lm/lmsans10-bold.otf>
-Output written on thesis.pdf (77 pages, 46443276 bytes).
+Output written on thesis.pdf (89 pages, 47249085 bytes).
 
-PDF statistics: 966 PDF objects out of 1000 (max. 8388607)
- 219 named destinations out of 1000 (max. 131072)
- 352 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 1123 PDF objects out of 1200 (max. 8388607)
+ 251 named destinations out of 1000 (max. 131072)
+ 360 words of extra memory for PDF output out of 10000 (max. 100000000)
 
